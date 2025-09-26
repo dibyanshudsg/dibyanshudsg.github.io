@@ -1,0 +1,104 @@
+baseURL = 'https://dibyanshudsg.github.io/'
+languageCode = 'en-us'
+title = 'SRI DURGASAPTASHATI'
+theme = "hugo-flex"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Explore the Durgasaptasati — a sacred scripture dedicated to the Divine Mother."
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = ""   
+  weight = 2
+  identifier = "About"  
+
+  [[menu.main]]
+  name = "Sri Aurobindo "
+  url = "/sri-aurobindo/"
+  parent = "About"
+  weight = 1
+
+  [[menu.main]]
+  name = "The Mother"
+  url = "/the-mother/"
+  parent = "About"
+  weight = 2
+
+  [[menu.main]]
+  name = "Sri Aurobindo Society  "
+  url = "/sri-aurobindo-society/"
+  parent = "About"
+  weight = 3
+
+  [[menu.main]]
+  name = "AuroBharati"
+  url = "/aurobharati/"
+  parent = "About"
+  weight = 4
+
+  [[menu.main]]
+  name = "About the Project"
+  url = "/about-the-project/"
+  parent = "About"
+  weight = 5
+
+  [[menu.main]]
+  name = "Shakti Cult"
+  url = "/shakti-cult/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Sri Durgasaptashati"
+  url = "/sri-durgasaptashati/"
+  weight = 4
+  
+  [[menu.main]]
+  name = "Resources"
+  weight = 5
+  identifier = "Resources"
+  
+  [[menu.main]]
+  name = "Publications"
+  url = "https://aurobharati.in/publications/"
+  parent = "Resources"
+  weight = 1
+  [menu.main.params]
+    target = "_blank"
+
+  [[menu.main]]
+  name = "Multimedia Resources"
+  url = ""
+  parent = "Resources"
+  weight = 2
+  
+
+  [[menu.main]]
+  name = "Web Portals"
+  url = " "
+  parent = "Resources"
+  weight = 3
+
+  [[menu.main]]
+  name = "Program"
+  url = "https://aurobharati.in/category/past-events/"
+  weight = 6
+  [menu.main.params]
+    target = "_blank"
+
+  [[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 7
+
+paginate = 2

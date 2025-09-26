@@ -1,0 +1,63 @@
+{{ define "main" }}
+<style>
+  .sidebar {
+    width: 300px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+    }
+    .dm_con ul li > a {
+      padding: 5px 9px 5px 9px;
+    }
+  }
+</style>
+
+<div
+  class="{{ with .Params.wrapperclass }}{{ . }}{{ else }}page-wrapper{{ end }}"
+  style="
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 75rem;
+    margin: auto;
+    padding: 0rem 1rem;
+  "
+>
+  <!-- SIDEBAR -->
+  {{ if not .Params.nosidebar }}
+  <aside class="sidebar">
+    {{ with .Params.customSidebar }} {{ partial . . }} {{ else }} {{ partial
+    "default-sidebar.html" . }} {{ end }}
+  </aside>
+  {{ end }}
+
+  <!-- MAIN CONTENT -->
+  <main
+    class="{{ with .Params.mainclass }}{{ . }}{{ else }}content{{ end }}"
+    style="flex: 1"
+  >
+    {{ $context := dict "page" . "level" 1 "isdateshown" false }} {{ partial
+    "heading.html" $context }} {{ .Content }} {{ if not $.Params.hideList }}
+    <div class="dm_con">
+      <ul id="m_list">
+        {{ range .Pages.ByWeight }}
+        <li class="mantra">
+          <a class="m_link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    <!-- ✅ Prev/Next Navigation (book-style sequence) -->
+    {{ if not .Params.noprevnext }} {{ partial "prevnext.html" . }} {{ end }}
+  </main>
+</div>
+{{ end }}

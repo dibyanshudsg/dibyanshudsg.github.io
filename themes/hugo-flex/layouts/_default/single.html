@@ -1,0 +1,58 @@
+{{ define "main" }}
+<style>
+  .sidebar {
+    width: 300px;
+  }
+
+  
+
+  @media (min-width: 768px) and (max-width: 1024px){
+    .sidebar {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+</style>
+
+<div
+  class="page-wrapper"
+  style="
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 75rem;
+    margin: auto;
+    padding: 0rem 1rem;
+  "
+>
+  <!-- Sidebar (only show if nosidebar is NOT true) -->
+  {{ if not .Params.nosidebar }}
+  <aside class="sidebar">
+    {{ with .Params.customSidebar }}
+      {{ partial . . }}
+    {{ else }}
+      {{ partial "default-sidebar.html" . }}
+    {{ end }}
+  </aside>
+  {{ end }}
+
+  <!-- Main Content -->
+  <main class="{{ .Params.mainclass | default "main-content" }}" style="flex: 1;">
+    {{ $context := dict "page" . "level" 1 "isdateshown" true }}
+    {{ partial "heading.html" $context }}
+    {{ .Content }}
+    {{ partial "tags.html" . }}
+    {{ partial "comments.html" . }}
+
+    <!-- Prev / Next Navigation (only show if noprevnext is NOT true) -->
+    
+    {{ if not .Params.noprevnext }}
+  {{ partial "prevnext.html" . }}
+{{ end }}
+  </main>
+</div>
+{{ end }}

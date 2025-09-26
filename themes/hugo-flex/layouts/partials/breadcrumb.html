@@ -1,0 +1,29 @@
+{{ if not .IsHome }}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">Home</a></li>
+
+    {{ range .Ancestors.Reverse }}
+      {{ if ne .Title site.Title }}  <!-- skip site root -->
+        <li class="breadcrumb-item">
+          <a href="{{ .Permalink }}">
+            {{ with .Params.linkTitle }}
+              {{ . }}
+            {{ else }}
+              {{ .Title }}
+            {{ end }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ with .Params.linkTitle }}
+        {{ . }}
+      {{ else }}
+        {{ .Title }}
+      {{ end }}
+    </li>
+  </ol>
+</nav>
+{{ end }}

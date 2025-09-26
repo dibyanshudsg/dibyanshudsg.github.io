@@ -1,0 +1,112 @@
+<div class="custom-box">
+  <div class="box_sadow1">
+    <h5>Default Sidebar</h5>
+    <ul id="c_list">
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-1/">C01</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-2/">C02</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-3/">C03</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-4/">C04</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-5/">C05</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-6/">C06</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-7/">C07</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-8/">C08</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-9/">C09</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-10/">C10</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-11/">C11</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-12/">C12</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-13/">C13</a>
+      </li>
+    </ul>
+  </div>
+  <div class="box_sadow2">
+    <h5>Default Sidebar</h5>
+    <ul id="c_list">
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-1/m-1/">M01</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-1/m-2/">M02</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-1/m-3/">M03</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-4/">M04</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-5/">M05</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-6/">M06</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-7/">M07</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-8/">M08</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-9/">M09</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-10/">M10</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-11/">M11</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-12/">M12</a>
+      </li>
+      <li class="chapter">
+        <a class="ca_link" href="/chapter-13/">M13</a>
+      </li>
+    </ul>
+    <p>class "mantra" is used to change the list deraction</p>
+  </div>
+</div>
+<script>
+  const currentPath = window.location.pathname.replace(/\/$/, ""); // current URL
+  const links = document.querySelectorAll(".ca_link");
+
+  links.forEach((link) => {
+    const rawHref = link.getAttribute("href");
+    if (!rawHref) return;
+
+    const linkHref = new URL(rawHref, window.location.origin).pathname.replace(
+      /\/$/,
+      ""
+    );
+
+    console.log("Current path:", currentPath);
+    console.log("Link path:", linkHref);
+
+    if (currentPath === linkHref || currentPath.startsWith(linkHref + "/")) {
+      link.classList.add("active");
+    }
+  });
+</script>

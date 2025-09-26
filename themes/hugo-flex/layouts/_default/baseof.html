@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+  <head>
+    {{ partial "meta.html" . }} {{ partial "title.html" . }} {{ partial
+    "link.html" . }}
+
+    <!-- Global CSS/JS -->
+    {{ partial "load_site_assets.html" . }}
+
+    <!-- Contact page CSS -->
+    {{ $contactPage := site.GetPage "contact" }} {{ if eq .Permalink
+    $contactPage.Permalink }} {{ $contactCSS := resources.Get "css/contact.css"
+    | minify | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $contactCSS.RelPermalink }}"
+      integrity="{{ $contactCSS.Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+    {{ end }}
+
+    <!-- Home page Slider CSS -->
+    {{ if .IsHome }} {{ $sliderCSS := resources.Get "css/slider.css" | minify |
+    fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $sliderCSS.RelPermalink }}"
+      integrity="{{ $sliderCSS.Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+    {{ end }} {{ if .IsHome }} {{ $iterationCSS := resources.Get
+    "css/iteration.css" | minify | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $iterationCSS.RelPermalink }}"
+      integrity="{{ $iterationCSS.Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+    {{ end }} {{ block "load_page_assets" . }} {{ $noop := .Content }} {{ end }}
+  </head>
+
+  <body>
+    {{ partialCached "banner.html" . .IsHome }} {{ partial "breadcrumb.html" .
+    }}
+    <main>
+      <div class="u-wrapper">
+        <div class="u-padding">{{ block "main" . }}{{ end }}</div>
+      </div>
+    </main>
+    {{ partialCached "footer.html" . }}
+    <!-- ✅ Universal JS (loads everywhere) -->
+    {{ $universal := resources.Get "js/universal.js" | minify | fingerprint }}
+    <script
+      src="{{ $universal.RelPermalink }}"
+      integrity="{{ $universal.Data.Integrity }}"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

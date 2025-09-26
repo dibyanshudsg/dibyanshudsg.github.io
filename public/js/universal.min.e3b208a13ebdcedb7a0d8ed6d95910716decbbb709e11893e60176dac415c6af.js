@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("menu-toggle"),t=document.getElementById("c_list");e&&t&&e.addEventListener("click",()=>{t.classList.toggle("active")})}),document.addEventListener("contextmenu",e=>e.preventDefault()),document.addEventListener("copy",e=>e.preventDefault()),document.addEventListener("cut",e=>e.preventDefault())
