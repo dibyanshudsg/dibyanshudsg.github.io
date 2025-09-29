@@ -918,12 +918,12 @@ vyāptamāsīttato devā bhayamājagmuruttamam || 52||
 
 ### Sanskrit
 
-तान् विषण्णान् सुरान् दृष्ट्वा चण्डिका प्राहसत्वरम्।<br>
+तान् विषण्णान् सुरान् दृष्ट्वा चण्डिका प्राहसत्वरा।<br>
 उवाच कालीं चामुण्डे विस्तीर्णं वदनं कुरु॥ ५३॥
 
 ### Transliteration
 
-tān viṣaṇṇān surān dṛṣṭvā caṇḍikā prāhasatvaram |<br>
+tān viṣaṇṇān surān dṛṣṭvā caṇḍikā prāhasatvarā |<br>
 uvāca kālīṁ cāmuṇḍe vistīrṇaṁ vadanaṁ kuru || 53||
 
 ### English Translation
@@ -955,12 +955,12 @@ raktabindoḥ pratīccha tvaṁ vaktreṇānena veginā || 54||
 ### Sanskrit
 
 भक्षयन्ती चर रणे तदुत्पन्नान्महासुरान्।<br>
-एवमेष क्षयं दैत्यः क्षेणरक्तो गमिष्यति॥ ५५॥
+एवमेष क्षयं दैत्यः क्षीणरक्तो गमिष्यति॥ ५५॥
 
 ### Transliteration
 
 bhakṣayantī cara raṇe tadutpannānmahāsurān |<br>
-evameṣa kṣayaṁ daityaḥ kṣeṇarakto gamiṣyati || 55||
+evameṣa kṣayaṁ daityaḥ kṣiṇarakto gamiṣyati || 55||
 
 ### English Translation
 

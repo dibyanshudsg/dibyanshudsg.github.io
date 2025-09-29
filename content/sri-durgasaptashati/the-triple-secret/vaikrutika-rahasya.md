@@ -1,30 +1,27 @@
 +++
 date = '2025-09-20T12:57:00+05:30'
 draft = false
-title = 'Vaikrutika Rahasya'
+title = '॥ वैकृतिकं रहस्यं ॥॥vaikṛtikaṁ rahasyaṁ॥'
 weight= 35
 customSidebar = "sidebar.html"
 showSpecialContent = true
 +++
 
-### ॥vaikṛtikaṁ rahasyaṁ॥ Śloka 001 ॥
-
 ### Sanskrit
 
-श्रीगणेशाय नमः॥<br>
 ऋषिरुवाच।
 
 ### Transliteration
 
-ṛṣiruvāca |<br>
-śrīgaṇeśāya namaḥ ॥
+ṛṣiruvāca |
 
 ### English Translation
 
-Salutation to śrī Gaṇeśāya
 The Sage said :
 
 #### \*\*
+
+### ॥vaikṛtikaṁ rahasyaṁ॥ Śloka 001 ॥
 
 ### Sanskrit
 
@@ -83,12 +80,12 @@ viśālayā rājamānā triṁśallocanamālayā ॥ 3॥
 ### Sanskrit
 
 स्फुरद्दशनदंष्ट्रा सा भीमरूपापि भूमिप।<br>
-रूपसौभाग्यकान्तीनां सा प्रतिष्ठां महाश्रियाम्॥ ४॥
+रूपसौभाग्यकान्तीनां सा प्रतिष्ठा महाश्रियाम्॥ ४॥
 
 ### Transliteration
 
 sphuraddaśanadaṁṣṭrā sā bhīmarūpāpi bhūmipa |<br>
-rūpasaubhāgyakāntīnāṁ sā pratiṣṭhāṁ mahāśriyām ॥ 4॥
+rūpasaubhāgyakāntīnā sā pratiṣṭhāṁ mahāśriyām ॥ 4॥
 
 ### English Translation
 
@@ -498,12 +495,12 @@ pūjayejjagatāṁ dhātrīṁ caṇḍikāṁ bhaktavatsalām ॥ 26॥
 
 ### Sanskrit
 
-अर्घादिभिरलङ्कारैर्गन्धपुष्पैस्तथोत्तमैः।<br>
+अर्घ्यादिभिरलङ्कारैर्गन्धपुष्पैस्तथोत्तमैः।<br>
 धूपैर्दीपैश्च नैवेद्यैर्नानाभक्ष्यसमन्वितैः॥ २७॥
 
 ### Transliteration
 
-arghādibhiralaṅkārairgandhapuṣpaistathottamaiḥ |<br>
+arghyādibhiralaṅkārairgandhapuṣpaistathottamaiḥ |<br>
 dhūpairdīpaiśca naivedyairnānābhakṣyasamanvitaiḥ ॥ 27॥
 
 ### English Translation
@@ -596,12 +593,12 @@ pradakṣiṇānamaskārānkṛtvā mūrghni kṛtāñjaliḥ ॥ 33॥
 
 ### Sanskrit
 
-क्षमापयेज्जगद्धात्रीं मुहुर्मुहुरतद्रितः।<br>
+क्षमापयेज्जगद्धात्रीं मुहुर्मुहुरतन्द्रितः।<br>
 प्रतिश्लोकं च जुहुयात्पायसं तिलसर्पिषा॥ ३४॥
 
 ### Transliteration
 
-kṣamāpayejjagaddhātrīṁ muhurmuhuratadritaḥ |<br>
+kṣamāpayejjagaddhātrīṁ muhurmuhuratandritaḥ |<br>
 pratiślokaṁ ca juhuyātpāyasaṁ tilasarpiṣā ॥ 34॥
 
 ### English Translation

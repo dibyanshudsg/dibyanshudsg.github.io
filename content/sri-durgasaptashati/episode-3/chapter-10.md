@@ -562,11 +562,11 @@ vavuḥ puṇyāstathā vātāḥ suprabho'bhūddivākaraḥ || 32||
 
 ### Sanskrit
 
-॥ इति श्रीमार्कण्डेयपुराणे सावर्णिके मन्वन्तरे दशमः॥ १०॥
+॥ इति श्रीमार्कण्डेयपुराणे सावर्णिके मन्वन्तरे देवीमाहात्म्ये दशमः॥ १०॥
 
 ### Transliteration
 
-|| iti śrīmārkaṇḍeyapurāṇe sāvarṇike manvantare
+|| iti śrīmārkaṇḍeyapurāṇe sāvarṇike manvantare devīmāhātmye
 daśamaḥ || 10||
 
 ### English Translation

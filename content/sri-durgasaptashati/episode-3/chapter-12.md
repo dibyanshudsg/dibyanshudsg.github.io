@@ -344,7 +344,7 @@ rakṣobhūtapiśācānāṁ paṭhanādeva nāśanam || 19||
 
 ### Sanskrit
 
-सर्वं ममैतन्माहात्म्यं मम सन्निधिकारकम्। 20
+सर्वं ममैतन्माहात्म्यं मम सन्निधिकारकम्। २0
 
 ### Transliteration
 
@@ -679,12 +679,12 @@ sthitiṁ karoti bhūtānāṁ saiva kāle sanātanī || 39||
 ### Sanskrit
 
 भवकाले नृणां सैव लक्ष्मीर्वृद्धिप्रदा गृहे।<br>
-सैवाभावे तथालक्ष्मीर्विनाशायोपजायते॥ ४०॥
+सैवाभावे तथाऽलक्ष्मीर्विनाशायोपजायते॥ ४०॥
 
 ### Transliteration
 
 bhavakāle nṛṇāṁ saiva lakṣmīrvṛddhipradā gṛhe |<br>
-saivābhāve tathālakṣmīrvināśāyopajāyate || 40||
+saivābhāve tathā'lakṣmīrvināśāyopajāyate || 40||
 
 ### English Translation
 
@@ -697,12 +697,12 @@ saivābhāve tathālakṣmīrvināśāyopajāyate || 40||
 ### Sanskrit
 
 स्तुता सम्पूजिता पुष्पैर्गन्धधूपादिभिस्तथा।<br>
-ददाति वित्तं पुत्रांश्च मतिं धर्मे गतिं शुभाम्॥ ४१॥
+ददाति वित्तं पुत्रांश्च मतिं धर्मे तथा शुभाम्॥ ४१॥
 
 ### Transliteration
 
 stutā sampūjitā puṣpairgandhadhūpādibhistathā |<br>
-dadāti vittaṁ putrāṁśca matiṁ dharme gatiṁ śubhām || 41||
+dadāti vittaṁ putrāṁśca matiṁ dharme tathā śubhām || 41||
 
 ### English Translation
 

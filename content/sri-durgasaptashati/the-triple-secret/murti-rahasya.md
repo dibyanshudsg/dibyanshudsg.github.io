@@ -65,12 +65,12 @@ devī kanakavarṇābhā kanakottamabhūṣaṇā ॥ 2॥
 ### Sanskrit
 
 कमलाङ्कुशपाशाब्जैरलङ्कृतचतुर्भुजा।<br>
-इदिरा कमला लक्ष्मीः सा श्रीरुक्माम्बुजासना॥ ३॥
+इन्दिरा कमला लक्ष्मीः सा श्रीरुक्माम्बुजासना॥ ३॥
 
 ### Transliteration
 
 kamalāṅkuśapāśābjairalaṅkṛtacaturbhujā |<br>
-idirā kamalā lakṣmīḥ sā śrīrukmāmbujāsanā ॥ 3॥
+indirā kamalā lakṣmīḥ sā śrīrukmāmbujāsanā ॥ 3॥
 
 ### English Translation
 
@@ -299,12 +299,12 @@ kārmukaṁ ca sphuratkānti bibharti parameśvarī |<br>
 ### Sanskrit
 
 शाकम्भरीं स्तुवन्ध्यायन् जपन्सम्पूजयन्नमन्।<br>
-अक्षव्यमश्नुते शीघ्रमन्नपानादि सर्वशः॥ १६॥
+अक्षय्यामश्नुते शीघ्रमन्नपानादि सर्वशः॥ १६॥
 
 ### Transliteration
 
 śākambharīṁ stuvandhyāyan japansampūjayannaman |<br>
-akṣavyamaśnute śīghramannapānādi sarvaśaḥ ॥ 16॥
+akṣayyāmaśnute śīghramannapānādi sarvaśaḥ ॥ 16॥
 
 ### English Translation
 

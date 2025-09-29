@@ -8,7 +8,7 @@ showSpecialContent = true
 hideList = true
 +++
 
-### ॥ अथ अर्गलास्तोत्रम् ॥॥ atha argalāstotram ॥
+### ॥अर्गलास्तोत्रम् ॥॥ argalāstotram ॥
 
 #### ---------
 
@@ -33,12 +33,12 @@ For Argalā Stotra, Viṣṇu is the seer, the metre is Anuṣṭub and the deit
 ### Sanskrit
 
 जयन्ती मङ्गला काली भद्रकाली कपालिनी।<br>
-दुर्गा शिवा क्षमा धात्री स्वाहा स्वधा नमोऽस्तु ते ॥ १॥
+दुर्गा क्षमा शिवा धात्री स्वाहा स्वधा नमोऽस्तु ते ॥ १॥
 
 ### Transliteration
 
 jayantī maṅgalā kālī bhadrakālī kapālinī |<br>
-durgā śivā kṣamā dhātrī svāhā svadhā namo'stu te || 1 ||
+durgā kṣamā śivā dhātrī svāhā svadhā namo'stu te || 1 ||
 
 ### English Translation
 
@@ -50,12 +50,12 @@ durgā śivā kṣamā dhātrī svāhā svadhā namo'stu te || 1 ||
 
 ### Sanskrit
 
-मधुकैटभविध्वंसि विधातृवरदे नमः।<br>
+मधुकैटभ विद्रावि विधातृवरदे नमः।<br>
 रूपं देहि जयं देहि यशो देहि द्विषो जहि ॥ २॥
 
 ### Transliteration
 
-madhukaiṭabhavidhvaṁsi vidhātṛvarade namaḥ |<br>
+madhukaiṭabha vidrāvi vidhātṛvarade namaḥ |<br>
 rūpaṁ dehi jayaṁ dehi yaśo dehi dviṣo jahi || 2 ||
 
 ### English Translation
@@ -136,12 +136,12 @@ rūpaṁ dehi jayaṁ dehi yaśo dehi dviṣo jahi || 6||
 
 ### Sanskrit
 
-नतेभ्यः सर्वदा भक्त्या चापर्णे दुरितापहे।<br>
+नतेभ्यः सर्वदा भक्त्या चण्डिके दुरितापहे।<br>
 रूपं देहि जयं देहि यशो देहि द्विषो जहि ॥ ७ ॥
 
 ### Transliteration
 
-natebhyaḥ sarvadā bhaktyā cāparṇe duritāpahe |<br>
+natebhyaḥ sarvadā bhaktyā caṇḍike duritāpahe |<br>
 rūpaṁ dehi jayaṁ dehi yaśo dehi dviṣo jahi || 7||
 
 ### English Translation

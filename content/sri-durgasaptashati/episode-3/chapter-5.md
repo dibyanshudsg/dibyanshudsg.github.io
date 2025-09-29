@@ -188,12 +188,12 @@ jyotsnāyai cendurūpiṇyai sukhāyai satataṁ namaḥ || 10||
 
 ### Sanskrit
 
-कल्याण्यै प्रणतां मृद्ध्यै सिद्ध्यै कुर्मो नमो नमः।<br>
+कल्याण्यै प्रणतामृद्ध्यै सिद्ध्यै कुर्मो नमो नमः।<br>
 नैरृर्त्यै भूभृतां लक्ष्म्यै शर्वाण्यै ते नमो नमः॥ ११॥
 
 ### Transliteration
 
-kalyāṇyai praṇatāṁ mṛddhyai siddhyai kurmo namo namaḥ |<br>
+kalyāṇyai praṇatāmṛddhyai siddhyai kurmo namo namaḥ |<br>
 nairṛtyai bhūbhṛtāṁ lakṣmyai śarvāṇyai te namo namaḥ || 11||
 
 ### English Translation

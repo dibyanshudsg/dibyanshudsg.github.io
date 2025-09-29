@@ -11,14 +11,16 @@ showSpecialContent = true
 
 ### Sanskrit
 
-श्रीगणेशाय नमः॥<br>
-अस्य श्रीसप्तशतीरहस्यत्रयस्य ब्रह्मविष्णुरुद्रा ऋषयः महाकालीमहालक्ष्मीमहासरस्वत्यो देवताः अनुष्टुप् छन्दः<br> नवदुर्गामहालक्ष्मीर्बीजं श्रीं शक्तिः ममाभीष्टफलसिद्धये सप्तशति पाठान्ते जपे विनियोगः॥
+अस्य श्रीसप्तशतीरहस्यत्रयस्य ब्रह्मविष्णुरुद्रा ऋषयः महाकालीमहालक्ष्मीमहासरस्वत्यो<br>
+देवताः अनुष्टुप् छन्दः नवदुर्गामहालक्ष्मीर्बीजं श्रीं शक्तिः ममाभीष्टफलसिद्धये सप्तशति <br>
+पाठान्ते जपे विनियोगः॥
 
 ### Transliteration
 
-śrīgaṇeśāya namaḥ ॥ <br>
-asya śrīsaptaśatīrahasyatrayasya brahmaviṣṇurudrā ṛṣayaḥ mahākālīmahālakṣmīmahāsarasvatyo devatāḥ anuṣṭup chandaḥ<br>
-navadurgāmahālakṣmīrbījaṁ śrīṁ śaktiḥ mamābhīṣṭaphalasiddhaye saptaśati pāṭhānte jape viniyogaḥ ॥
+asya śrīsaptaśatīrahasyatrayasya brahmaviṣṇurudrā ṛṣayaḥ<br>
+mahākālīmahālakṣmīmahāsarasvatyo devatāḥ anuṣṭup chandaḥ<br>
+navadurgāmahālakṣmīrbījaṁ śrīṁ śaktiḥ<br>
+mamābhīṣṭaphalasiddhaye saptaśati pāṭhānte jape viniyogaḥ ॥
 
 #### \*\*
 
@@ -398,12 +400,12 @@ etayorapi rūpāṇi nāmāni ca vadāmi te ॥ 19॥
 
 ### Sanskrit
 
-नीलकण्ठं रक्तबाहु श्वेताङ्गं चद्रशेखरम्।<br>
+नीलकण्ठं रक्तवाहुं श्वेताङ्गं चद्रशेखरम्।<br>
 जनयामास पुरुषं महाकाली सितां स्त्रियम्॥ २०॥
 
 ### Transliteration
 
-nīlakaṇṭhaṁ raktabāhu śvetāṅgaṁ cadraśekharam |<br>
+nīlakaṇṭhaṁ raktabāhuṁ śvetāṅgaṁ cadraśekharam |<br>
 janayāmāsa puruṣaṁ mahākālī sitāṁ striyam ॥ 20॥
 
 ### English Translation
@@ -546,14 +548,14 @@ mahābhūtātmakaṁ sarvaṁ jagatsthāvarajaṅgamam ॥ 27॥
 पुपोष पालयामास तल्लक्ष्म्या सह केशवः।<br>
 महालक्ष्मीरेवमजा राजन् सर्वेश्वरेश्वरी॥ २८॥<br>
 निराकारा च साकारा सैव नानाभिधानभृत्।<br>
-नामातरैर्निरूप्यैषा नाम्ना नान्येन केनचित्॥ २९॥
+नामान्तरैर्निरूप्यैषा नाम्ना नान्येन केनचित्॥ २९॥
 
 ### Transliteration
 
 pupoṣa pālayāmāsa tallakṣmyā saha keśavaḥ |<br>
 mahālakṣmīrevamajā rājan sarveśvareśvarī ॥ 28॥<br>
 nirākārā ca sākārā saiva nānābhidhānabhṛt |<br>
-nāmātarairnirūpyaiṣā nāmnā nānyena kenacit ॥ 29॥
+nāmāntarairnirūpyaiṣā nāmnā nānyena kenacit ॥ 29॥
 
 ### English Translation
 

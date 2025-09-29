@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- full-width background -->
-<div>{{ partial "slider.html" . }}</div>
+<div class="baground">{{ partial "slider.html" . }}</div>
 
 <!-- Main wrapper -->
 <div class="row">
@@ -9,7 +9,7 @@
     <div class="row_2">
       <!-- Left column -->
       <div class="clm_1">
-        <img src="/Image/Maa_durga_2.png" alt="Maa Durga" />
+        <img src="/Image/Shailaputri6.webp" alt="Maa Durga" />
       </div>
 
       <!-- Right column -->
@@ -41,9 +41,12 @@
       </div>
     </div>
   </div>
-
-  <!-- 2nd row: Hymn to Durga -->
+  <!-- gallery -->
   <div class="bag-c">
+    <div class="gallery">{{ partial "iteration.html" . }}</div>
+  </div>
+  <!-- 3rd row: Hymn to Durga -->
+  <div class="bag">
     <div class="durgasutra">
       <div class="Heade_content">
         <h2>HYMN TO DURGA BY SRI AUROBINDO</h2>
@@ -122,7 +125,7 @@
     </div>
   </div>
 
-  <!-- 3rd row: Digital Portals -->
+  <!-- 4th row: Digital Portals -->
   <div class="bag">
     <div class="row_3">
       <div class="clm_31">
@@ -202,9 +205,85 @@
     </div>
   </div>
 
-  <!-- 4th row: Slider -->
+  <!-- 5th row: Slider -->
   <div class="row_4">
-    <div class="s_row">{{ partial "iteration.html" . }}</div>
+    <div class="s_row">
+      <div class="bag">
+        <div class="layout-2">
+          <div class="Heade_content">
+            <!--<h3>SRI DURGASAPTASHATI</h3>-->
+            <h2>JOIN OUR COMMUNITY</h2>
+
+            <img src="/Image/separater-1.png" alt="separater" />
+            <p>
+              Become a member of our community to connect with like-minded
+              individuals, share insights, and grow collectively. Join a
+              collaborative network that values cooperation, education, and
+              mutual respect. Together, we celebrate diversity, inspire
+              creativity, and make a meaningful impact. Your voice is
+              essential—join us and contribute to our shared journey.
+            </p>
+          </div>
+          <div class="layout-box2">
+            <div class="clm-L1">
+              <h5>Facebook:</h5>
+              <a
+                href="https://www.facebook.com/people/AuroBharati-Sri-Aurobindo-Society-Puducherry/100081441377692/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/Image/Facebook.webp" width="100%" alt="Facebook" />
+              </a>
+            </div>
+            <div class="clm-L2">
+              <h5>Twitter:</h5>
+              <a
+                href="https://x.com/aurobharati"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/Image/Twitter.webp" width="100%" alt="Twitter" />
+              </a>
+            </div>
+            <div class="clm-L3">
+              <h5>Instagram:</h5>
+              <a
+                href="https://www.instagram.com/sasaurobharati/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/Image/Twitter.webp" width="100%" alt="Instagram" />
+              </a>
+            </div>
+            <div class="clm-L4">
+              <h5>Get Involved:</h5>
+              <div id="layout-3-link">
+                <img
+                  src="/Image/Volunteership.webp"
+                  width="100%"
+                  alt="Get Involved Banner"
+                />
+                <a
+                  href="https://aurobharati.in/volunteers-and-internships/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Volunteership</a
+                >
+                <a
+                  href="https://aurobharati.in/volunteers-and-internships/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Support Us</a
+                >
+                <a href="/contact/" target="_blank" rel="noopener noreferrer"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {{ end }}

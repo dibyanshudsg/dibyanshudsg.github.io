@@ -9,14 +9,17 @@ description = "Describtion"
 hideList = true
 +++
 
+### ॥ अथ उत्तमचरित्रम् ॥॥ atha uttamacaritram ॥
+
+#### ---------
+
 ### Sanskrit
 
-विनियोगः
+विनियोगः<br>
 अस्य श्री उत्तरचरित्रस्य रुद्र ऋषिः। श्रीमहासरस्वती देवता।<br>
 अनुष्टुप् छन्दः। भीमा शक्तिः। भ्रामरी बीजम्। सूर्यस्तत्त्वम्।<br>
 सामवेदः स्वरूपम्। श्रीमहासरस्वतीप्रीत्यर्थे उत्तरचरित्रपाठे विनियोगः।<br>
-
-ध्यानम्<br>
+॥ महासरस्वती ध्यानम् ॥<br>
 घण्टाशूलहलानि शङ्खमुसले चक्रं धनुः सायकं<br>
 हस्ताब्जैर्दधतीं घनान्तविलसच्छीतांशुतुल्यप्रभाम्।<br>
 गौरीदेहसमुद्भवां त्रिजगतामाधारभूतां महा-<br>
@@ -24,14 +27,13 @@ hideList = true
 
 ### Transliteration
 
-viniyogaḥ
+viniyogaḥ<br>
 asya śrī uttaracaritrasya rudra ṛṣiḥ | śrīmahāsarasvatī devatā |<br>
 anuṣṭup chandaḥ | bhīmā śaktiḥ | bhrāmarī bījam |<br>
-sūryastattvam |sāmavedaḥ svarūpam | śrīmahāsarasvatīprītyarthe
-uttaracaritrapāṭheviniyogaḥ |
-
-dhyānam
-ghaṇṭāśūlahalāni śaṅkhamusale cakraṁ dhanuḥ sāyakaṁ<br  >
+sūryastattvam |sāmavedaḥ svarūpam | śrīmahāsarasvatīprītyarthe<br>
+uttaracaritrapāṭheviniyogaḥ |<br>
+॥ mahāsarasvatī dhyānam ॥<br>
+ghaṇṭāśūlahalāni śaṅkhamusale cakraṁ dhanuḥ sāyakaṁ<br>
 hastābjairdadhatīṁ ghanāntavilasacchītāṁśutulyaprabhām |<br>
 gaurīdehasamudbhavāṁ trijagatāmādhārabhūtāṁ mahā-<br>
 pūrvāmatra sarasvatīmanubhaje śumbhādidaityārdinīm ||

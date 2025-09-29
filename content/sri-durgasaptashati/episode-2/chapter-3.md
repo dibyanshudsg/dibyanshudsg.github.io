@@ -82,12 +82,12 @@ jaghāna turagānbāṇairyantāraṁ caiva vājinām || 4||
 
 ### Sanskrit
 
-चिच्छेद च धनुः सद्यो ध्वजं चातिसमुच्छृतम्।<br>
+चिच्छेद च धनुः सद्यो ध्वजं चातिसमुच्छ्रतम्।<br>
 विव्याध चैव गात्रेषु छिन्नधन्वानमाशुगैः॥ ५॥
 
 ### Transliteration
 
-ciccheda ca dhanuḥ sadyo dhvajaṁ cātisamucchṛtam |<br>
+ciccheda ca dhanuḥ sadyo dhvajaṁ cātisamucchratam |<br>
 vivyādha caiva gātreṣu chinnadhanvānamāśugaiḥ || 5||
 
 ### English Translation

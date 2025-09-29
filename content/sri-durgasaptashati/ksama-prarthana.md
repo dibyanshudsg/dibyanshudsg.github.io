@@ -30,12 +30,12 @@ Day and night, I commit a thousand mistakes, O Supreme Goddess, pardon them cons
 ### Sanskrit
 
 आवाहनं न जानामि न जानामि विसर्जनम्।<br>
-पूजाम् चैव न जानामि क्षम्यतां परमेश्वरि॥२॥
+पूजां चैव न जानामि क्षम्यतां परमेश्वरि॥२॥
 
 ### Transliteration
 
 āvāhanaṁ na jānāmi na jānāmi visarjanam|<br>
-pūjām caiva na jānāmi kṣamyatāṁ parameśvari||2|
+pūjāṁ caiva na jānāmi kṣamyatāṁ parameśvari||2|
 
 ### English Translation
 
@@ -48,12 +48,12 @@ I do not know how to invoke thy presence and how to revoke it. I do not know how
 ### Sanskrit
 
 मन्त्रहीनं क्रियाहीनं भक्तिहीनं सुरेश्वरि।<br>
-यत् पूजितं मया देवि परिपूर्णं तदस्तु मे॥३॥
+यत् पूजितं मया देवि परिपूर्णं तदस्तु ते॥३॥
 
 ### Transliteration
 
 mantrahīnaṁ kriyāhīnaṁ bhaktihīnaṁ sureśvari|<br>
-yat pūjitaṁ mayā devi paripūrṇaṁ tadastu me||3||
+yat pūjitaṁ mayā devi paripūrṇaṁ tadastu te||3||
 
 ### English Translation
 
@@ -83,13 +83,13 @@ If a man commits a hundred faults but utters the invocation, 'O World - Mother',
 
 ### Sanskrit
 
-सापरधोऽस्मि शरणं प्राप्तस्त्वां जगदम्बिके।<br>
-इदानीमनुकम्प्योऽहं यथेच्छासि तथा कुरु॥५॥
+सापराधोऽस्मि शरणं प्राप्तस्त्वां जगदम्बिके।<br>
+इदानीमनुकम्प्योऽहं यथेच्छसि तथा कुरु॥५॥
 
 ### Transliteration
 
-sāparadho'smi śaraṇaṁ prāptastvāṁ jagadambike|<br>
-idānīmanukampyo'haṁ yathecchāsi tathā kuru||5||
+sāparādho'smi śaraṇaṁ prāptastvāṁ jagadambike|<br>
+idānīmanukampyo'haṁ yathecchasi tathā kuru||5||
 
 ### English Translation
 

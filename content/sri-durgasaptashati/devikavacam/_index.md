@@ -32,13 +32,13 @@ For the Kavaca, Brahmā is the Seer, Anuṣṭub is the Metre and Cāmuṇḍā,
 ### Sanskrit
 
 ॥ मार्कण्डेय उवाच।<br>
-ॐ यद्गुह्यं परमं लोके सर्वरक्षाकरं नृणाम्।<br>
+यद्गुह्यं परमं लोके सर्वरक्षाकरं नृणाम्।<br>
 यन्न कस्यचिदाख्यातं तन्मे ब्रूहि पितामह॥ १॥
 
 ### Transliteration
 
 || mārkaṇḍeya uvāca |<br>
-oṁ yadguhyaṁ paramaṁ loke sarvarakṣākaraṁ nṛṇām |<br>
+yadguhyaṁ paramaṁ loke sarvarakṣākaraṁ nṛṇām |<br>
 yanna kasyacidākhyātaṁ tanme brūhi pitāmaha || 1||
 
 ### English Translation
@@ -72,12 +72,12 @@ devyāstu kavacaṁ puṇyaṁ tacchṛṇuṣva mahāmune || 2||
 
 ### Sanskrit
 
-प्रथमं शैलपुत्री च द्वितीयं ब्रह्मचारिणी।<br>
+प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी।<br>
 तृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्॥ ३॥
 
 ### Transliteration
 
-prathamaṁ śailaputrī ca dvitīyaṁ brahmacāriṇī |<br>
+prathamaṁ śailaputrīti dvitīyaṁ brahmacāriṇī |<br>
 tṛtīyaṁ candraghaṇṭeti kūṣmāṇḍeti caturthakam || 3||
 
 ### English Translation
@@ -91,12 +91,12 @@ tṛtīyaṁ candraghaṇṭeti kūṣmāṇḍeti caturthakam || 3||
 ### Sanskrit
 
 पञ्चमं स्कन्दमातेति षष्ठं कात्यायनीति च।<br>
-सप्तमं कालरात्रीति महागौरीति चाष्टमम्॥ ४॥
+सप्तमं कालरात्रिश्च महागौरीति चाष्टमम्॥ ४॥
 
 ### Transliteration
 
 pañcamaṁ skandamāteti ṣaṣṭhaṁ kātyāyanīti ca |<br>
-saptamaṁ kālarātrīti mahāgaurīti cāṣṭamam || 4||
+saptamaṁ kālarātrīśca mahāgaurīti cāṣṭamam || 4||
 
 ### English Translation
 
@@ -162,12 +162,12 @@ nāpadaṁ tasya paśyāmi śokaduḥkhabhayaṁ na hi || 7||
 
 ### Sanskrit
 
-यैस्तु भक्त्या स्मृता नूनं तेषां वृद्धिः प्रजायते।<br>
+यैस्तु भक्त्या स्मृता नूनं तेषां सिद्धिः प्रजायते।<br>
 प्रेतसंस्था तु चामुण्डा वाराही महिषासना।॥ ८॥
 
 ### Transliteration
 
-yaistu bhaktyā smṛtā nūnaṁ teṣāṁ vṛddhiḥ prajāyate |<br>
+yaistu bhaktyā smṛtā nūnaṁ teṣāṁ siddhiḥ prajāyate |<br>
 pretasaṁsthā tu cāmuṇḍā vārāhī mahiṣāsanā || 8||
 
 ### English Translation
@@ -270,13 +270,13 @@ dhārayantyāyudhānītthaṁ devānāṁ ca hitāya vai || 13||
 
 ### Sanskrit
 
-नमस्तेऽस्तु महारौद्रे महाघोरपराक्रमे।<br>
-महाबले महोत्साहे महाभयविनाशिनि॥ १४ ॥
+महाबले महोत्साहे महाभयविनाशिनि ।<br>
+त्राहि मां देवि दुष्प्रेक्षे शत्रूणां भयवर्धिनि॥ १४ ॥
 
 ### Transliteration
 
-namaste'stu mahāraudre mahāghoraparākrame |<br>
-mahābale mahotsāhe mahābhayavināśini || 14||
+mahābale mahotsāhe mahābhayavināśini |<br>
+trāhi māṁ devi duṣprekṣe śatrūṇāṁ bhayavardhini || 14||
 
 ### English Translation
 
@@ -342,12 +342,12 @@ evaṁ daśa diśo rakṣeccāmuṇḍā śavavāhanā |
 
 ### Sanskrit
 
-जया मे चाग्रतः पातु विजया पातु पृष्ठतः।<br>
+जया मे आग्रतः स्थातु विजया पातु पृष्ठतः।<br>
 अजिता वामपार्श्वे तु दक्षिणे चापराजिता ॥ १८ ॥
 
 ### Transliteration
 
-jayā me cāgrataḥ pātu vijayā pātu pṛṣṭhataḥ|<br>
+jayā me āgrataḥ sthātu vijayā pātu pṛṣṭhataḥ|<br>
 ajitā vāmapārśve tu dakṣiṇe cāparājitā || 18 ||
 
 ### English Translation
@@ -415,12 +415,12 @@ nāsikāyāṁ sugandhā ca uttaroṣṭhe ca carcikā || 21||
 ### Sanskrit
 
 अधरे चामृतकला जिह्वायां च सरस्वती।<br>
-दन्तान् रक्षतु कौमारी कण्ठदेशे तु चण्डिका ॥ २२॥
+दन्तान् रक्षतु कौमारी कण्ठमध्ये तु चण्डिका ॥ २२॥
 
 ### Transliteration
 
 adhare cāmṛtakalā jihvāyāṁ ca sarasvatī |<br>
-dantān rakṣatu kaumārī kaṇṭhadeśe tu caṇḍikā || 22 ||
+dantān rakṣatu kaumārī kaṇṭhamadhye tu caṇḍikā || 22 ||
 
 ### English Translation
 
@@ -510,7 +510,7 @@ stanau rakṣenmahālakṣmīḥ manaḥśokavināśinī || 26||
 ### Transliteration
 
 hṛdaye lalitā devī hudare śūladhāriṇī |<br>
-nābhau ca kāminī rakṣedguhyaṁ guhyeśvarī tathā || 2 7||
+nābhau ca kāminī rakṣedguhyaṁ guhyeśvarī tathā || 27||
 
 ### English Translation
 
@@ -523,10 +523,12 @@ nābhau ca kāminī rakṣedguhyaṁ guhyeśvarī tathā || 2 7||
 ### Sanskrit
 
 कट्यां भगवती रक्षेज्जानुनी विन्ध्यवासिनी।<br>
-भूतनाथा च मेढ्रं मे उरु महिषवाहिनी॥ २८॥
-Transliteration
+भूतनाथा च मेढ्रं मे ऊरु महिषवाहिनी॥ २८॥
+
+### Transliteration
+
 kaṭyāṁ bhagavatī rakṣejjānunī vindhyavāsinī |<br>
-būtanāthā ca meḍhraṁ me uru mahiṣavāhinī || 28 ||
+būtanāthā ca meḍhraṁ me ūru mahiṣavāhinī || 28 ||
 
 ### English Translation
 
@@ -628,12 +630,12 @@ jvālāmukhī nakhajvālāmabhedyā sarvasandhiṣu || 33||<br>
 
 ### Sanskrit
 
-अहंकारं मनो बुद्धिं रक्षेन्मे धर्मचारिणी।<br>
+अहंकारं मनो बुद्धिं रक्ष मे धर्मचारिणी।<br>
 प्राणापानौ तथा व्यानं समानोदानमेव च ॥ ३४॥
 
 ### Transliteration
 
-ahaṁkāraṁ mano buddhiṁ rakṣenme dharmacāriṇī |<br>
+ahaṁkāraṁ mano buddhiṁ rakṣa me dharmacāriṇī |<br>
 prāṇāpānau tathā vyānaṁ samānodānameva ca || 34||
 
 ### English Translation
@@ -663,12 +665,12 @@ gotramindrāṇī me rakṣetpaśūnme rakṣa caṇḍike || 35 ||
 ### Sanskrit
 
 पुत्रान् रक्षेन्महालक्ष्मीर्भार्यां रक्षतु भैरवी।<br>
-मार्गे क्षेमकरी रक्षोद्विजया सर्वतः स्थिता ॥ ३६ ॥
+मार्गं क्षेमकरी रक्षोद्विजया सर्वतः स्थिता ॥ ३६ ॥
 
 ### Transliteration
 
 putrān rakṣenmahālakṣmīrbhāryāṁ rakṣatu bhairavī |<br>
-mārge kṣemakarī rakṣodvijayā sarvataḥ sthitā || 36 ||
+mārgaṁ kṣemakarī rakṣodvijayā sarvataḥ sthitā || 36 ||
 
 ### English Translation
 
@@ -697,12 +699,12 @@ tatsarvaṁ rakṣa me devi jayantī pāpanāśinī || 37 ||
 ### Sanskrit
 
 पदमेकं न गच्छेत्तु यदीच्छेच्छुभमात्मनः।<br>
-कवचेनावृतो नित्यं यत्र यत्रैव गच्छति॥ ३८ ॥
+कवचेनावृतो नित्यं यत्र यत्राधि गच्छति॥ ३८ ॥
 
 ### Transliteration
 
 padamekaṁ na gacchettu yadīcchecchubhamātmanaḥ |<br>
-kavacenāvṛto nityaṁ yatra yatraiva gacchati || 38||
+kavacenāvṛto nityaṁ yatra yatrādhi gacchati || 38||
 
 ### English Translation
 
@@ -804,13 +806,13 @@ naśyanti vyādhayaḥ sarve lūtāvisphoṭakādayaḥ || 43||
 
 ### Sanskrit
 
-स्थावरं जङ्गमं चैव कृत्रिमं चापि यद्विषम्।<br>
-अभिचाराणि सर्वाणि मन्त्रयन्त्राणि भूतले॥ ४४॥
+स्थावरं जङ्गमं चापि कृत्रिमं चापि यद्विषम्।<br>
+आभिचाराणि सर्वाणि मन्त्रयन्त्राणि भूतले॥ ४४॥
 
 ### Transliteration
 
-sthāvaraṁ jaṅgamaṁ caiva kṛtrimaṁ cāpi yadviṣam |<br>
-abhicārāṇi sarvāṇi mantrayantrāṇi bhūtale|| 44||
+sthāvaraṁ jaṅgamaṁ cāpi kṛtrimaṁ cāpi yadviṣam |<br>
+ābhicārāṇi sarvāṇi mantrayantrāṇi bhūtale|| 44||
 
 ### English Translation
 
@@ -822,13 +824,13 @@ abhicārāṇi sarvāṇi mantrayantrāṇi bhūtale|| 44||
 
 ### Sanskrit
 
-भूचराः खेचराश्चैव जलजाश्चौपदेशिकाः।<br>
-सहजा कुलजा मालाः शाकिनी डाकिनी तथा ॥ ४५ ॥
+भूचराः खेचराश्चैव जलजाश्चोपदेशिकाः।<br>
+सहजाः कुलजा मालाः शाकिनी डाकिनी तथा ॥ ४५ ॥
 
 ### Transliteration
 
-bhūcarāḥ khecarāścaiva jalajāścaupadeśikāḥ|<br>
-sahajā kulajā mālāḥ śākinī ḍākinī tathā || 45 ||
+bhūcarāḥ khecarāścaiva jalajāścopadeśikāḥ|<br>
+sahajāḥ kulajā mālāḥ śākinī ḍākinī tathā || 45 ||
 
 ### English Translation
 

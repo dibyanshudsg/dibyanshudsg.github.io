@@ -1028,12 +1028,12 @@ kecinnipatitā bhūmau bhinnāḥ śūlena vakṣasi || 59||
 ### Sanskrit
 
 निरन्तराः शरौघेण कृताः केचिद्रणाजिरे ।<br>
-श्येनानुकारिणः प्राणान् मुमुचुस्त्रिदशार्दनाः ॥ ६०॥
+शल्यानुकारिणः प्राणान् मुमुचुस्त्रिदशार्दनाः ॥ ६०॥
 
 ### Transliteration
 
 nirantarāḥ śaraugheṇa kṛtāḥ kecidraṇājire |<br>
-śyenānukāriṇaḥ prāṇān mumucustridaśārdanāḥ || 60||
+śalyānukāriṇaḥ prāṇān mumucustridaśārdanāḥ || 60||
 
 ### English Translation
 

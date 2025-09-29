@@ -62,12 +62,12 @@ vidyā tathaiva kriyate bhagavadviṣṇumāyayā || 3||
 
 ### Sanskrit
 
-तया त्वमेष वैश्यश्च तथैवान्ये विवेकिनः।<br>
+तया त्वयेष वैश्यश्च तथैवान्ये विवेकिनः।<br>
 मोह्यन्ते मोहिताश्चैव मोहमेष्यन्ति चापरे ॥४ ॥
 
 ### Transliteration
 
-tayā tvameṣa vaiśyaśca tathaivānye vivekinaḥ |<br>
+tayā tvayeṣa vaiśyaśca tathaivānye vivekinaḥ |<br>
 mohyante mohitāścaiva mohameṣyanti cāpare || 4||
 
 ### English Translation
@@ -455,9 +455,9 @@ the Manu.
 ### Transliteration
 
 ॥ śrīsaptaśatīdevīmāhātmyaṁ samāptam ॥<br>
-॥ om tat sat om॥
+॥ om svastiḥ॥
 
 ### English Translation
 
 ॥ Thus ends the Saptaśatī Devī Māhātmya ॥<br>
-॥ om tat sat om॥
+॥ om svasti ॥

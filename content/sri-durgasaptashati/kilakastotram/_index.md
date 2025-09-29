@@ -14,12 +14,12 @@ hideList = true
 
 ### Sanskrit
 
-ॐ अस्य श्रीकीलकमन्त्रस्य शिव ऋषिः। अनुष्टुप् छन्दः। श्रीमहासरस्वती देवता।<br>
+ॐ अस्य श्रीकीलकस्तोत्रमन्त्रस्य शिव ऋषिः। अनुष्टुप् छन्दः। श्रीमहासरस्वती देवता।<br>
 ॐ नमश्चण्डिकायै॥
 
 ### Transliteration
 
-om asya śrīkīlakamantrasya śiva ṛṣiḥ, anuṣṭup chandaḥ,<br>
+om asya śrīkīlakastotramantrasya śiva ṛṣiḥ, anuṣṭup chandaḥ,<br>
 śrīmahāsarasvatī devatā, śrījagadambāprītyarthaṁ<br>
 om namaścaṇḍikāyai ॥
 
@@ -34,7 +34,7 @@ For this Kīlaka Śiva is the seer, the metre is Anuṣṭub and the deity is Ma
 ### Sanskrit
 
 विशुद्धज्ञानदेहाय त्रिवेदीदिव्यचक्षुषे।<br>
-श्रेयःप्रा प्तिनिमित्ताय नमः सोमार्धधारिणे ॥ १॥
+श्रेयःप्राप्तिनिमित्ताय नमः सोमार्धधारिणे ॥ १॥
 
 ### Transliteration
 
@@ -69,12 +69,12 @@ Whosoever is intent on the recitation of these Mantras without all this kīlaka,
 
 ### Sanskrit
 
-सिद्ध्यन्त्युच्चाटनादीनि कर्माणि सकलान्यपि।<br>
+सिद्ध्यन्त्युच्चाटनादीनि वस्तूनि सकलान्यपि।<br>
 एतेन स्तुवतां नित्यं स्तोत्रमात्रेण सिद्ध्यति॥॥ ३॥
 
 ### Transliteration
 
-siddhyantyuccāṭanādīni karmāṇi sakalānyapi |<br>
+siddhyantyuccāṭanādīni vastūni sakalānyapi |<br>
 etena stuvatāṁ nityaṁ stotramātreṇa siddhyati|||| 3||
 
 ### English Translation
@@ -87,13 +87,13 @@ All things like driving away the undesirables are effective; but for those who l
 
 ### Sanskrit
 
-न मन्त्रो नौषधं तस्य न किञ्चिदपि विद्यते।<br>
-विना जप्येन सिद्ध्येत् सर्वमुच्चाटनादिकम् ॥ ४॥
+न मन्त्रो नौषधं तत्र न किञ्चिदपि विद्यते।<br>
+विना जप्येन सिद्ध्येत सर्वमुच्चाटनादिकम् ॥ ४॥
 
 ### Transliteration
 
-na mantro nauṣadhaṁ tasya na kiñcidapi vidyate |<br>
-vinā japyena siddhyet sarvamuccāṭanādikam || 4||
+na mantro nauṣadhaṁ tatra na kiñcidapi vidyate |<br>
+vinā japyena siddhyeta sarvamuccāṭanādikam || 4||
 
 ### English Translation
 
@@ -124,12 +124,12 @@ All are effectuated. Śiva left this for discussion in the world and made all th
 ### Sanskrit
 
 स्तोत्रं वै चण्डिकायास्तु तच्च गुह्यं चकार सः।<br>
-समाप्तिर्न च पुण्यस्य तां यथावन्निमन्त्रणाम् ॥ ६॥
+समाप्तिर्न च पुण्यस्य तां यथावन्नियन्त्रणाम् ॥ ६॥
 
 ### Transliteration
 
 stotraṁ vai caṇḍikāyāstu tacca guhyaṁ cakāra saḥ |<br>
-samāptirna ca puṇyasya tāṁ yathāvannimantraṇām || 6||
+samāptirna ca puṇyasya tāṁ yathāvanniyantraṇām || 6||
 
 ### English Translation
 
@@ -178,12 +178,12 @@ he gives, he accepts. In no other way She is pleased. By this pivot, it is fixed
 ### Sanskrit
 
 यो निष्कीलां विधायैनां नित्यं जपति सुस्फुटम्।।<br>
-स सिद्धः स गणः सोऽथ गन्धर्वो जायतेऽवने ॥ ९॥
+स सिद्धः स गणः सोऽपि गन्धर्वो जायतेऽवने ॥ ९॥
 
 ### Transliteration
 
 yo niṣkīlāṁ vidhāyaināṁ caṇḍīṁ nityaṁ japati susphuṭam |<br>
-sa siddhaḥ sa gaṇaḥ so'tha gandharvo jāyate’vane || 9||
+sa siddhaḥ sa gaṇaḥ so'pi gandharvo jāyate’vane || 9||
 
 ### English Translation
 
@@ -193,14 +193,15 @@ Whoever frees this from restraint and constantly recites it clearly, he is the a
 
 ### ॥ Kīlakam ॥ Śloka 010 ॥
 
-Sanskrit
-न चैवाप्यटतस्तस्य भयं क्वापि न जायते।<br>
-नापमृत्युवशं याति मृते च मोक्षमाप्नुयात् ॥ १०॥
+### Sanskrit
+
+न चैवाप्यटतस्तस्य भयं क्वापि हि जायते।<br>
+नापमृत्युवशं याति मृतो मोक्षमाप्नुयात् ॥ १०॥
 
 ### Transliteration
 
-na caivāpyaṭatastasya bhayaṁ kvāpi na jāyate |<br>
-nāpamṛtyuvaśaṁ yāti mṛte ca mokṣamāpnuyāt || 10||
+na caivāpyaṭatastasya bhayaṁ kvāpi hi jāyate |<br>
+nāpamṛtyuvaśaṁ yāti mṛto mokṣamāpnuyāt || 10||
 
 ### English Translation
 
@@ -213,12 +214,12 @@ When he goes about, from nowhere does fear come to him. He does not become a vic
 ### Sanskrit
 
 ज्ञात्वा प्रारभ्य कुर्वीत ह्यकुर्वाणो विनश्यति।<br>
-ततो ज्ञात्वैव सम्पूर्णमिदं प्रारभ्यते बुधैः ॥ ११॥
+ततो ज्ञात्वैव सम्पन्नमिदं प्रारभ्यते बुधैः ॥ ११॥
 
 ### Transliteration
 
 jñātvā prārabhya kurvīta hyakurvāṇo vinaśyati |<br>
-tato jñātvaiva sampūrṇamidaṁ prārabhyate budhaiḥ || 11||
+tato jñātvaiva sampannamidaṁ prārabhyate budhaiḥ || 11||
 
 ### English Translation
 
@@ -231,12 +232,12 @@ Having known, one should begin and perform; if he does not perform, he perishes.
 ### Sanskrit
 
 सौभाग्यादि च यत्किञ्चिद् दृश्यते ललनाजने।<br>
-तत्सर्वं तत्प्रसादेन तेन जप्यमिदं शुभम् ॥ १२॥
+तत्सर्वं तत्प्रसादेन तेन जाप्यमिदं शुभम् ॥ १२॥
 
 ### Transliteration
 
 saubhāgyādi ca yatkiñcid dṛśyate lalanājane |<br>
-tatsarvaṁ tatprasādena tena japyamidaṁ śubham || 12||
+tatsarvaṁ tatprasādena tena jāpyamidaṁ śubham || 12||
 
 ### English Translation
 
@@ -266,12 +267,12 @@ Even when this laud is recited slowly, lofty results to be the complete fulfilme
 
 ### Sanskrit
 
-ऐश्वर्यं तत्प्रसादेन सौभाग्यारोग्यमेव च।<br>
+ऐश्वर्यं यत्प्रसादेन सौभाग्यारोग्यसम्पदः च।<br>
 शत्रुहानिः परो मोक्षः स्तूयते सा न किं जनैः ॥ १४॥
 
 ### Transliteration
 
-aiśvaryaṁ tatprasādena saubhāgyārogyameva ca |<br>
+aiśvaryaṁ yatprasādena saubhāgyārogyasampadaḥ ca |<br>
 śatruhāniḥ paro mokṣaḥ stūyate sā na kiṁ janaiḥ || 14||
 
 ### English Translation

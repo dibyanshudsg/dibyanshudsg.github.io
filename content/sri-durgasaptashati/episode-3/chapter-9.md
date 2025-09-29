@@ -539,12 +539,12 @@ tato niśumbhaḥ samprāpya cetanāmāttakārmukaḥ |<br>
 ### Sanskrit
 
 पुनश्च कृत्वा बाहूनामयुतं दनुजेश्वरः।<br>
-चक्रायुधेन दितिजश्छादयामास चण्डिकाम्॥ ३०॥
+चक्रायुतेन दितिजश्छादयामास चण्डिकाम्॥ ३०॥
 
 ### Transliteration
 
 punaśca kṛtvā bāhūnāmayutaṁ danujeśvaraḥ |<br>
-cakrāyudhena ditijaśchādayāmāsa caṇḍikām || 30||
+cakrāyutena ditijaśchādayāmāsa caṇḍikām || 30||
 
 ### English Translation
 
@@ -557,12 +557,12 @@ cakrāyudhena ditijaśchādayāmāsa caṇḍikām || 30||
 ### Sanskrit
 
 ततो भगवती क्रुद्धा दुर्गा दुर्गार्तिनाशिनी।<br>
-चिच्छेद देवी चक्राणि स्वशरैः सायकांश्च तान्॥ ३१॥
+चिच्छेद तानि चक्राणि स्वशरैः सायकांश्च तान्॥ ३१॥
 
 ### Transliteration
 
 tato bhagavatī kruddhā durgā durgārtināśinī |<br>
-ciccheda devī cakrāṇi svaśaraiḥ sāyakāṁśca tān || 31||
+ciccheda tāni cakrāṇi svaśaraiḥ sāyakāṁśca tān || 31||
 
 ### English Translation
 

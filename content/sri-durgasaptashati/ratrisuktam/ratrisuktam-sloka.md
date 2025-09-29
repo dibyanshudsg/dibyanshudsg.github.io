@@ -25,7 +25,7 @@ viśvā adhiśriyodhita ||1||
 
 #### \*\*
 
-॥ Rātri Sūktam ॥ Śloka 002॥
+### ॥ Rātri Sūktam ॥ Śloka 002॥
 
 ### Sanskrit
 
@@ -43,7 +43,7 @@ jyotiṣā vādhate tamaḥ||2||
 
 #### \*\*
 
-॥ Rātri Sūktam ॥ Śloka 003॥
+### ॥ Rātri Sūktam ॥ Śloka 003॥
 
 ### Sanskrit
 
