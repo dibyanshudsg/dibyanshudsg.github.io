@@ -29,8 +29,8 @@
 
 <link
   rel="stylesheet"
-  href="/css/base.min.5bbd88d7af4be372df579c2a9e779ecdd9e5e298a4575ca817893b5fa7f16377.css"
-  integrity="sha256-W72I169L43LfV5wqnneezdnl4pikV1yoF4k7X6fxY3c="
+  href="/css/base.min.9b607845085a7c43a7e6442f582e96f1e988ac0c8b20236acda3cf631c86e79d.css"
+  integrity="sha256-m2B4RQhafEOn5kQvWC6W8emIrAyLICNqzaPPYxyG550="
   crossorigin="anonymous"
 />
 
@@ -636,7 +636,116 @@
   </div>
   
   <div class="bag-c">
-    <div class="gallery"></div>
+    <div class="gallery"><div class="gallery-grid">
+  <a href="#img1"
+    ><img
+      data-src="/Image/davi-Brahmacharini.webp"
+      alt="Gallery Image 1"
+      class="lazy"
+  /></a>
+  <a href="#img2"
+    ><img
+      data-src="/Image/davi-chandraghanta.webp"
+      alt="Gallery Image 2"
+      class="lazy"
+  /></a>
+  <a href="#img3"
+    ><img
+      data-src="/Image/davi-kaalraatri.webp"
+      alt="Gallery Image 3"
+      class="lazy"
+  /></a>
+  <a href="#img4"
+    ><img
+      data-src="/Image/davi-katyayani.webp"
+      alt="Gallery Image 4"
+      class="lazy"
+  /></a>
+  <a href="#img5"
+    ><img
+      data-src="/Image/davi-Kushmanda.webp"
+      alt="Gallery Image 5"
+      class="lazy"
+  /></a>
+  <a href="#img6"
+    ><img
+      data-src="/Image/davi-mahagauri.webp"
+      alt="Gallery Image 6"
+      class="lazy"
+  /></a>
+  <a href="#img7"
+    ><img
+      data-src="/Image/davi-siddhidatri.webp"
+      alt="Gallery Image 7"
+      class="lazy"
+  /></a>
+  <a href="#img8"
+    ><img
+      data-src="/Image/davi-skandmata.webp"
+      alt="Gallery Image 8"
+      class="lazy"
+  /></a>
+  <a href="#img9"
+    ><img
+      data-src="/Image/davi-siddhidatri.webp"
+      alt="Gallery Image 9"
+      class="lazy"
+  /></a>
+</div>
+
+<style>
+  .gallery-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .gallery-grid img.loaded {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const lazyImages = document.querySelectorAll("img.lazy");
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries, obs) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.dataset.src;
+              img.onload = () => img.classList.add("loaded");
+              img.classList.remove("lazy");
+              obs.unobserve(img);
+            }
+          });
+        },
+        { rootMargin: "100px" }
+      );
+
+      lazyImages.forEach((img) => observer.observe(img));
+    } else {
+      
+      lazyImages.forEach((img) => {
+        img.src = img.dataset.src;
+        img.onload = () => img.classList.add("loaded");
+      });
+    }
+  });
+</script>
+</div>
   </div>
   
   <div class="bag">
