@@ -7,3 +7,15 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .baground {
+    background-image: url(/Image/Dsg.webp);
+    height: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .baground {
+    background-image: url(/Image/Dsg.webp);
+    height: 300px;
+  }
+}
