@@ -594,78 +594,81 @@ border: 1px solid  rgb(155, 43, 4);
 border-radius: 10px; /* works with rounded corners */
 }
 /*HYMN TO DURGA BY SRI AUROBINDO 3 box start*/
-.htdbsa{
-display: flex;
-flex-wrap: wrap;
-align-items: initial;
-justify-content: center;
-flex-direction: row;
-gap: 20px ;
-margin-top: 40px;
-}
-.Bengali{ 
-flex: 1;
-display: flex;
-flex-wrap: nowrap;
-gap: 20px;
+/*icon boxes */
+.htdbsa {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
 
-}
-.my-button2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 125px; /* constant height */
-  padding: 10px 20px;
-  border-radius: 8px;
-  background-image: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/Image/background.webp);
+  /* Buttons as icon boxes */
+  .my-button2 {
+    display: flex;
+    align-items: center;
+    width: 100%; /* fixed width for box layout */
+    padding: 15px 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.05); /* subtle transparent box */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* border outline */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* soft shadow */
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+      background-color 0.3s ease;
+  }
 
-  /* Make it cover the entire container */
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+  /* Hover effect */
+  .my-button2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
-  /* Make it fill the viewport */ 
-  transition: box-shadow 0.3s ease;
-}
-.line-break {
-  display: inline;
-}
-/* Heading is hidden by default */
-.my-button2 .heading {
-  opacity: 1;
-  transform: translateX(10px); /* start above */
-  transition: all 0.3s ease;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-}
+  /* YouTube icon inside a circle */
+  .youtube-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    background-color: #9b2b04; /* YouTube red background */
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
 
-/* Arrow is always visible */
-.my-button2 .arrow {
-  opacity: 0;
-  transform: translateX(-20px);
-  transition: all 0.3s ease;
-  font-size: 22px;
-  color: #fff;
-}
+  .youtube-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff; /* white play icon inside red circle */
+  }
 
-.my-button2:hover .heading {
-  opacity: 0;
-  transform: translateY(0); /* drop down into view */
-}
+  /* Heading text */
+  .my-button2 .heading {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+    color:#9b2b04;
+    line-height: 1.3;
+  }
 
-.my-button2:hover .arrow {
-  opacity: 1; 
-  transform: translateX(0);
-}
+  /* Arrow on the right */
+  .my-button2 .arrow {
+    font-size: 22px;
+    color:#9b2b04;
+    margin-left: 10px;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+  }
 
-
-
-/* Hover effect */
-
+  /* Hover effect for arrow */
+  .my-button2:hover .arrow {
+    opacity: 1;
+    transform: translateX(0);
+  }
 /*HYMN TO DURGA BY SRI AUROBINDO 3 box start*/
 .Heade_content>img{
   position: relative;
@@ -732,6 +735,64 @@ gap: 20px;
   background-color: transparent;
   border: 2px solid #9b2b04;
 }
+
+/*social media*/
+/* Container */
+  #social-buttons {
+    gap: 15px;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+  }
+  
+  /* Button styling */
+  .social-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .social-btn:hover{
+    color: white;
+    
+  }
+  
+  .social-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+  }
+  
+  /* Button colors */
+  .volunteership {
+    background: #e1306c;
+    width: 100%;
+  } /* Instagram style */
+  .support {
+    background: #3b5998;
+    width: 100%;
+  } /* Facebook style */
+  .contact {
+    background: #ff0000;
+    width: 100%;
+  } /* YouTube style */
+  .twitter {
+    background: #1da1f2;
+    width: 100%;
+  } /* Twitter style */
+  
+  /* Hover effect */
+  .social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  /*social media*/
+  
 .potal_image {
   display: flex;
   flex-wrap: wrap;
@@ -965,13 +1026,6 @@ background-color: #ccc;
 
 /* Hide menu on mobile */
 
-
-/* Hamburger button style */
-
-
-/* Desktop: sidebar visible normally */
-
-
 /* SRI_DURGASAPTASHATI */
  /* Tablet (768px – 1024px) */
 @media (min-width: 768px) and (max-width: 1024px){
@@ -1133,15 +1187,10 @@ float:none;
   padding: 10px 20px;
   background-position: top ;
   background-size: cover;
-  
-}
-.line-break{
-  display: none;
 }
 .htdbsa{
   flex-direction: column;
   margin-top: 0px;
-
 }
 }
 /* Mobile version started */
