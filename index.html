@@ -635,58 +635,60 @@
   </div>
   
   <div class="bag-c">
-    <div class="gallery"><div class="Heade_content">
-  <h2>नवदुर्गाः Nine Durgās</h2>
-  <img src="/Image/separater-1.png" alt="separator" />
-</div>
-
-<div class="s-text">
-  <p>प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी... नवदुर्गाः प्रकीर्तिताः।</p>
-  <p>Devīmāhātmya defines the nine auspicious forms of the Divine Mother...</p>
-</div>
-
-<div class="gallery-grid">
+    <div class="gallery"><div class="gallery-grid">
   <a href="#img1"
     ><img
-      src="/Image/davi-Brahmacharini.webp"
+      data-src="/Image/davi-Brahmacharini.webp"
       alt="Gallery Image 1"
-      loading="lazy"
+      class="lazy"
   /></a>
   <a href="#img2"
     ><img
-      src="/Image/davi-chandraghanta.webp"
+      data-src="/Image/davi-chandraghanta.webp"
       alt="Gallery Image 2"
-      loading="lazy"
+      class="lazy"
   /></a>
   <a href="#img3"
     ><img
-      src="/Image/davi-kaalraatri.webp"
+      data-src="/Image/davi-kaalraatri.webp"
       alt="Gallery Image 3"
-      loading="lazy"
+      class="lazy"
   /></a>
   <a href="#img4"
-    ><img src="/Image/davi-katyayani.webp" alt="Gallery Image 4" loading="lazy"
+    ><img
+      data-src="/Image/davi-katyayani.webp"
+      alt="Gallery Image 4"
+      class="lazy"
   /></a>
   <a href="#img5"
-    ><img src="/Image/davi-Kushmanda.webp" alt="Gallery Image 5" loading="lazy"
+    ><img
+      data-src="/Image/davi-Kushmanda.webp"
+      alt="Gallery Image 5"
+      class="lazy"
   /></a>
   <a href="#img6"
-    ><img src="/Image/davi-mahagauri.webp" alt="Gallery Image 6" loading="lazy"
+    ><img
+      data-src="/Image/davi-mahagauri.webp"
+      alt="Gallery Image 6"
+      class="lazy"
   /></a>
   <a href="#img7"
     ><img
-      src="/Image/davi-siddhidatri.webp"
+      data-src="/Image/davi-siddhidatri.webp"
       alt="Gallery Image 7"
-      loading="lazy"
+      class="lazy"
   /></a>
   <a href="#img8"
-    ><img src="/Image/davi-skandmata.webp" alt="Gallery Image 8" loading="lazy"
+    ><img
+      data-src="/Image/davi-skandmata.webp"
+      alt="Gallery Image 8"
+      class="lazy"
   /></a>
   <a href="#img9"
     ><img
-      src="/Image/davi-siddhidatri.webp"
+      data-src="/Image/davi-siddhidatri.webp"
       alt="Gallery Image 9"
-      loading="lazy"
+      class="lazy"
   /></a>
 </div>
 
@@ -695,22 +697,53 @@
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: 1200px;
+    margin: auto;
   }
+
   .gallery-grid img {
     width: 100%;
     height: auto;
     display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease;
   }
-  .Heade_content {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .s-text {
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.6;
+
+  .gallery-grid img.loaded {
+    opacity: 1;
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const lazyImages = document.querySelectorAll("img.lazy");
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries, obs) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.dataset.src;
+              img.onload = () => img.classList.add("loaded");
+              img.classList.remove("lazy");
+              obs.unobserve(img);
+            }
+          });
+        },
+        { rootMargin: "100px" }
+      );
+
+      lazyImages.forEach((img) => observer.observe(img));
+    } else {
+      
+      lazyImages.forEach((img) => {
+        img.src = img.dataset.src;
+        img.onload = () => img.classList.add("loaded");
+      });
+    }
+  });
+</script>
 </div>
   </div>
   
