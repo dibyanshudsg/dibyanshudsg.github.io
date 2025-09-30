@@ -469,13 +469,8 @@ max-width:100%;
 
   .u-clickable, .menu-label{
     font-family: "Lora", serif;
-    text-decoration: none;
-    
-    
-    
+    text-decoration: none; 
   }
-
-
 .u-noboosting {
   max-height: 1000000px;
   margin: auto;
@@ -530,12 +525,9 @@ margin: 0 auto;
 .row_2,.row_3,.durgasutra,.gallery,.layout,.layout-2{
   max-width: 75rem;
 margin: 0 auto;
+padding: 1.5rem 1rem;
 }
-
-
 .row_2,.row_3{
-  margin: 0 auto;
-  padding:1.5rem 1rem;;
   display: flex;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
   align-items:center;
@@ -1383,6 +1375,9 @@ nav[aria-label="breadcrumb"] {
   font-size: 14px;
   margin: 1rem 0;
 } 
+
+
+
 
 
 
