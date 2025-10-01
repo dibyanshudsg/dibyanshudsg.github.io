@@ -1,6 +1,6 @@
 baseURL = 'https://dibyanshudsg.github.io/'
 languageCode = 'en-us'
-title = 'SRI DURGASAPTASHATI'
+title = 'DEVĪMĀHĀTMYAM'
 theme = "hugo-flex"
 [markup]
   [markup.goldmark]

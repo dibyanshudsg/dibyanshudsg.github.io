@@ -1,21 +1,20 @@
 .baground {
-  background-image: url(/Image/Dsg.webp);
-  height: 800px;
+  background-image: url(/Image/durgamahatmyam-hero-image.webp);
+  height: 500px;
   background-size: cover;
   background-position: center;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  max-width: 100%;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .baground {
-    background-image: url(/Image/Dsg.webp);
-    height: 500px;
+    height: 370px;
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
   .baground {
-    background-image: url(/Image/Dsg.webp);
-    height: 300px;
+    height: 150px;
+    max-width: 100%;
   }
 }
