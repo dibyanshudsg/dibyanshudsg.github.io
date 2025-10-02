@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: center; /* centers all rows, including last row */
   gap: 15px;
-  margin: 40px auto;
+  margin: auto;
   max-width: 1200px;
 }
 
