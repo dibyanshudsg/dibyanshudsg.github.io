@@ -54,8 +54,8 @@ unsafe = true
   weight = 5
 
   [[menu.main]]
-  name = "Project Team"
-  url = "/Project-team/"
+  name = "Acknowledgement"
+  url = "/acknowledgement/"
   parent = "About"
   weight = 6
 

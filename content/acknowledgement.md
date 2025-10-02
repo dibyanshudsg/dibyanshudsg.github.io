@@ -1,7 +1,7 @@
 +++
 date = '2025-10-02T15:05:43+05:30'
 draft = false
-title = 'Project Team'
+title = 'Acknowledgement'
 mainclass = "exceptional-content"
 nosidebar = true
 noprevnext = true
@@ -14,6 +14,7 @@ Society, Union Territory of Puducherry.
 
 ##### Advice and Support:
 
+Shri Pradeep Narang  
 Shri Vijay Podar
 
 ##### Research, Editing and Concept Design
