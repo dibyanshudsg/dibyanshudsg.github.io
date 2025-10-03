@@ -697,7 +697,7 @@ border-radius: 10px; /* works with rounded corners */
   
   /* Button colors */
   .volunteership {
-    background: #e1306c;
+    background: #A31545;
     width: 100%;
   } /* Instagram style */
   .support {
@@ -705,11 +705,11 @@ border-radius: 10px; /* works with rounded corners */
     width: 100%;
   } /* Facebook style */
   .contact {
-    background: #ff0000;
+    background: #b30000;
     width: 100%;
   } /* YouTube style */
   .twitter {
-    background: #1da1f2;
+    background: #0D5D91;
     width: 100%;
   } /* Twitter style */
   .website{
@@ -913,9 +913,9 @@ width: 100%;
 .dc_con{
 height: auto;
 margin: auto;}
-#c_list{
-  display: flex;
-  flex-wrap: nowrap ;
+/* Desktop (default) */
+#c_list {
+  display: flex;         /* always in layout */
   flex-direction: column;
   gap: 10px;
   margin-top: 30px;
@@ -1032,15 +1032,22 @@ background-color: #ccc;
 
 /* sidebar  css*/
 #c_list {
-  display: none;
-}
+    display: flex;          /* keep in layout to avoid reflow */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0px;
+
+    max-height: 0;          /* hide */
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
   #c_list.active {
-  display: flex;
-  flex-wrap: nowrap ;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px;
-}
+    max-height: 1000px;     /* arbitrary large value */
+    opacity: 1;
+    margin-top:30px;
+  }
 
 .hamburger {
   display: block;
@@ -1153,16 +1160,22 @@ float:none;
 
 /* sidebar  css*/
 #c_list {
-  display: none;
-}
+    display: flex;          /* keep in layout to avoid reflow */
+    flex-direction: column;
+    gap: 10px;
+    margin-top:0px;
+
+    max-height: 0;          /* hide */
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
   #c_list.active {
-  display: flex;
-  flex-wrap: nowrap ;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px;
-  
-}
+    max-height: 1000px;     /* arbitrary large value */
+    opacity: 1;
+    margin-top:30px;
+  }
 .hamburger {
   display: block;
   background-color: #9b2b04;
