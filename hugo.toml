@@ -6,6 +6,8 @@ theme = "hugo-flex"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
+favicon = true  # Set to true to add <link rel="icon" href="/favicon.ico">
+
 
 [params]
   description = "Explore the Devīmāhātmyam — a sacred scripture dedicated to the Divine Mother."
