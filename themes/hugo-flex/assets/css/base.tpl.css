@@ -492,9 +492,8 @@ max-width: 100%;
 margin: 0 auto;
 }
 
-.bag-c{
-  background-color: #fff;
-
+.bag-c {
+    background-color: #ffffff57;
 }
 .Devimahatmyam,.row_3,.durgasutra,.gallery,.layout,.layout-2{
   max-width: 75rem;
@@ -1248,6 +1247,8 @@ div#mobileMenu>a{
 .menu-open .menu-toggle {
   display: none;
 }
+.menu-toggle,.close-toggle {
+  color: #ffffff;}
 .menu-open .close-toggle {
   display: inline-block;
 }
