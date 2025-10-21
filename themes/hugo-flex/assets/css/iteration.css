@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* centers all rows, including last row */
-  gap: 15px;
+  gap: 10px;
   margin: auto;
   max-width: 1200px;
 }
