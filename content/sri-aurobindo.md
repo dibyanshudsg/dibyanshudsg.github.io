@@ -7,7 +7,7 @@ nosidebar = true
 noprevnext = true   
 +++
 
-![aurobharati](/Image/about-sri-aurobindo.webp)
+![aurobharati](/Image/sri-aurobindo.webp/)
 **Sri Aurobindo, an introduction:**
 
 The year was 1907. The freedom movement in India was gathering momentum. Its leader was detained by the police. The poet Rabindranath Tagore paid him a visit after his acquittal, and wrote the now famous lines:

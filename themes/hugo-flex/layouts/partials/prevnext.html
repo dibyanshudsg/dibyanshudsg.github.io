@@ -1,11 +1,11 @@
 <nav class="post-nav">
   {{/* 1. Get the parent section */}} {{ $parent := site.GetPage "section"
-  "sri-durgasaptashati" }} {{ $pages := slice }} {{ if $parent }} {{/* Add all
-  regular pages recursively */}} {{ range $parent.RegularPagesRecursive }} {{ if
+  "devimahatmyam" }} {{ $pages := slice }} {{ if $parent }} {{/* Add all regular
+  pages recursively */}} {{ range $parent.RegularPagesRecursive }} {{ if isset
+  .Params "weight" }} {{ $pages = $pages | append . }} {{ end }} {{ end }} {{/*
+  Add section indexes (non-recursive) */}} {{ range $parent.Sections }} {{ if
   isset .Params "weight" }} {{ $pages = $pages | append . }} {{ end }} {{ end }}
-  {{/* Add section indexes (non-recursive) */}} {{ range $parent.Sections }} {{
-  if isset .Params "weight" }} {{ $pages = $pages | append . }} {{ end }} {{ end
-  }} {{/* Add parent section index itself if it has weight */}} {{ if isset
+  {{/* Add parent section index itself if it has weight */}} {{ if isset
   $parent.Params "weight" }} {{ $pages = $pages | append $parent }} {{ end }} {{
   end }} {{/* 2. Sort only by weight */}} {{ $pages = sort $pages "Weight" }}
   {{/* 3. Find the current page index */}} {{ $current := . }} {{ $index := -1

@@ -1,96 +1,45 @@
-.gallery-content {
+.content-section p {
+  text-align: center;
+}
+/* Flexbox Gallery */
+.gallery-flex {
   display: flex;
-  gap: 20px;
-  align-items: center; /* vertically center content */
+  flex-wrap: wrap;
+  justify-content: center; /* centers all rows, including last row */
+  gap: 15px;
+  margin: auto;
+  max-width: 1200px;
 }
 
-/* Left Gallery - 50% */
-.gallery-item {
-  flex: 0 0 50%;
+.gallery-flex a {
+  display: block;
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 per row */
-  gap: 10px;
-}
-
-.gallery-grid img {
+.gallery-flex img {
   width: 100%;
-  height: 120px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.gallery-grid img:hover {
+.gallery-flex a:hover img {
   transform: scale(1.05);
 }
 
-/* Right Text - 50% */
-.s-text {
-  flex: 0 0 50%;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #555;
-  text-align: center; /* center text content */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertically center */
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .gallery-flex a {
+    width: 168px;
+  }
 }
 
-/* Lightbox */
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.lightbox img {
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #000;
-}
-
-.lightbox:target {
-  display: flex;
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Responsive */
 @media (max-width: 768px) {
-  .gallery-content {
-    flex-direction: column;
-  }
-  .gallery-item,
-  .s-text {
-    flex: 1 1 100%;
-  }
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
+  .gallery-flex a {
+    width: 94px;
   }
 }

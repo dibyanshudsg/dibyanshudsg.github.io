@@ -43,7 +43,7 @@ body {
   }
 a{
   color:#000000 ;
-  text-decoration: none;  
+  text-decoration: none; 
 }
 a:hover{
   color:#9b2b04 ;
@@ -93,55 +93,29 @@ p{color:#000000;
   justify-content: space-between;
   margin:auto 20px;
 }
-.logo_aria>img{
+.title_logo{
+  flex: 1;
+}
+.ab-logo{
+  flex: 1;
+}
+.ab-logo>img{
   max-width:100%; 
   height: 100px;        /* or use width: 120px; */
   object-fit: contain;
   display: block;
-  text-align: left;
+  float: right;
   padding: 0.5rem;
-}
-.title_logo{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 .title_logo>img{
   max-width:100%; 
   height: 150px;        /* or use width: 120px; */
   object-fit: contain;
   display: block;
-  text-align: left;
+  float: left;
   padding: 0.5rem;
 }
-.title_logo>h2{
-  font-family: 'Trajan Pro', serif;
-  color:#9b2b04 ;
-  font-weight: 600;
-  white-space: normal;
-  word-break: break-word;
-  text-align: center;
-  line-height: 1.5em;
-}
-.title_logo{
-  margin: auto 20px;
-}
-#B_Img {
-  padding: 30px;
-  background-image: url("#");
-  max-width: 100%;
-  height: auto;
-  min-height: 546px;             /* Maintains aspect ratio */
-  border-bottom: #9b2b04 2px solid;
-  display: block;           /* Removes inline spacing below image */
-  background-size: cover;
-  background-position:center  ;
-  background-repeat: no-repeat;
-          /* Centers the image */
-  }
+
 table {
   border-collapse: collapse;
   margin: auto;
@@ -469,13 +443,8 @@ max-width:100%;
 
   .u-clickable, .menu-label{
     font-family: "Lora", serif;
-    text-decoration: none;
-    
-    
-    
+    text-decoration: none; 
   }
-
-
 .u-noboosting {
   max-height: 1000000px;
   margin: auto;
@@ -523,22 +492,23 @@ max-width: 100%;
 margin: 0 auto;
 }
 
-.bag-c{
-  background-color: #fff;
-
+.bag-c {
+    background-color: #ffffff57;
 }
-.row_2,.row_3,.durgasutra,.gallery,.layout,.layout-2{
+.Devimahatmyam,.row_3,.durgasutra,.gallery,.layout,.layout-2{
   max-width: 75rem;
 margin: 0 auto;
+padding: 1.5rem 1rem;
 }
-
-
+.row_2{
+  align-items: end;
+}
+.row_3{
+  align-items:center;
+}
 .row_2,.row_3{
-  margin: 0 auto;
-  padding:1.5rem 1rem;;
   display: flex;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  align-items:center;
   justify-content: center;
   gap: 20px;
   overflow: hidden;
@@ -559,7 +529,7 @@ h2, h3 {
 .row_2_1{
   display: flex;
   flex-wrap: wrap ; /* Allows wrapping on smaller screens */
-  align-items: center;
+  align-items:center;
   justify-content: center;
   gap: 30px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
@@ -589,8 +559,9 @@ h2, h3 {
   
   max-width: 100%;
   float: right;
+  width: 91%;
   border-radius: 10px;
- margin: 10px 6px 10px 60px;
+ margin: 0px 6px 10px 60px;
 }
 .clm_2_1 img{
   max-width: 100%;  
@@ -601,78 +572,26 @@ h2, h3 {
 border: 1px solid  rgb(155, 43, 4);
 border-radius: 10px; /* works with rounded corners */
 }
-/*HYMN TO DURGA BY SRI AUROBINDO 3 box start*/
-.htdbsa{
-display: flex;
-flex-wrap: wrap;
-align-items: initial;
-justify-content: center;
-flex-direction: row;
-gap: 20px ;
-margin-top: 40px;
-}
-.Bengali{ 
-flex: 1;
-display: flex;
-flex-wrap: nowrap;
-gap: 20px;
 
-}
-.my-button2 {
-  display: flex;
-  justify-content: space-between;
+.potal_audio{display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column ;
+  gap: 5px;
+}
+
+.audio-cul-1 img{
+  max-width: 100%;  
   width: 100%;
-  height: 125px; /* constant height */
-  padding: 10px 20px;
-  border-radius: 8px;
-  background-image: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/Image/background.webp);
-
-  /* Make it cover the entire container */
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-
-  /* Make it fill the viewport */ 
-  transition: box-shadow 0.3s ease;
-}
-.line-break {
-  display: inline;
-}
-/* Heading is hidden by default */
-.my-button2 .heading {
-  opacity: 1;
-  transform: translateX(10px); /* start above */
-  transition: all 0.3s ease;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-}
-
-/* Arrow is always visible */
-.my-button2 .arrow {
-  opacity: 0;
-  transform: translateX(-20px);
-  transition: all 0.3s ease;
-  font-size: 22px;
-  color: #fff;
-}
-
-.my-button2:hover .heading {
-  opacity: 0;
-  transform: translateY(0); /* drop down into view */
-}
-
-.my-button2:hover .arrow {
-  opacity: 1; 
-  transform: translateX(0);
+  height: 130px;
+  border-radius:10px;
 }
 
 
 
-/* Hover effect */
+/*HYMN TO DURGA BY SRI AUROBINDO 3 box start*/
+
 
 /*HYMN TO DURGA BY SRI AUROBINDO 3 box start*/
 .Heade_content>img{
@@ -697,7 +616,8 @@ gap: 20px;
   }
 .Heade_content h3{
   font-size: 14px;
-  color:#F0BD27 ;
+  /*color:#F0BD27 ;*/
+  color: #9b2b04;
   
   padding-bottom: 0.188rem;
   text-align: center;
@@ -711,15 +631,19 @@ gap: 20px;
     max-width: 100%;
     
 }
+.clm_31 .Heade_content p{
+  padding-bottom: 0px;
+
+}
 .Heade_content{
   margin: auto;
   text-align: center;
- padding: 20px 15px;
+ padding: 0px 5px 20px 15px;
 
 }
 .my-button {
       
-    background-color: #9b2b04;
+  background-color: #9b2b04;
   color: white;
   padding: 8px 24px;
   border: 2px solid #9b2b04;
@@ -740,6 +664,68 @@ gap: 20px;
   background-color: transparent;
   border: 2px solid #9b2b04;
 }
+
+/*social media*/
+/* Container */
+  #social-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+  }
+  
+  /* Button styling */
+  .social-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .social-btn:hover{
+    color: white;
+    
+  }
+  
+  .social-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+  }
+  
+  /* Button colors */
+  .volunteership {
+    background: #A31545;
+    width: 100%;
+  } /* Instagram style */
+  .support {
+    background: #3b5998;
+    width: 100%;
+  } /* Facebook style */
+  .contact {
+    background: #b30000;
+    width: 100%;
+  } /* YouTube style */
+  .twitter {
+    background: #0D5D91;
+    width: 100%;
+  } /* Twitter style */
+  .website{
+    background: #123C69;
+    width: 100%;
+  }
+  /* Hover effect */
+  .social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  /*social media*/
+  
 .potal_image {
   display: flex;
   flex-wrap: wrap;
@@ -784,7 +770,66 @@ overflow: hidden;
 .clm-L4 h5 {
   padding-bottom: 30px;
 }
+.clm-L1,.clm-L2 {
+    padding: 10px;
+  }
 
+  /* Slider container */
+ .post-slider {
+               /* adjust width */
+    height: 250px  ;           /* 4 items visible (4*40px) */
+    overflow: hidden;
+   
+  }
+
+  .post-slider ul {
+    margin: 0;
+    padding: 0;
+    list-style:decimal;
+    display: flex;
+    flex-direction: column;
+    animation: scroll 40s linear infinite;
+  }
+
+  .post-slider li {
+    height:auto;
+    padding-bottom: 20px;
+   
+  }
+  .post-slider li a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-size: 14px;
+    
+    
+  }
+  .post-slider li p{
+     display: block;
+    text-decoration: none;
+    text-align: left;
+    word-wrap: break-word;
+    padding: 0;
+  line-height: 20px;
+  font-size: 14px;
+
+  }
+  
+
+  /* Optional subtle shading for odd items */
+
+
+  /* Pause scrolling on hover */
+  .post-slider:hover ul {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
 #layout-3-link {
   max-width: 100%;
   display: flex;
@@ -871,9 +916,9 @@ width: 100%;
 .dc_con{
 height: auto;
 margin: auto;}
-#c_list{
-  display: flex;
-  flex-wrap: nowrap ;
+/* Desktop (default) */
+#c_list {
+  display: flex;         /* always in layout */
   flex-direction: column;
   gap: 10px;
   margin-top: 30px;
@@ -973,13 +1018,6 @@ background-color: #ccc;
 
 /* Hide menu on mobile */
 
-
-/* Hamburger button style */
-
-
-/* Desktop: sidebar visible normally */
-
-
 /* SRI_DURGASAPTASHATI */
  /* Tablet (768px – 1024px) */
 @media (min-width: 768px) and (max-width: 1024px){
@@ -997,15 +1035,22 @@ background-color: #ccc;
 
 /* sidebar  css*/
 #c_list {
-  display: none;
-}
+    display: flex;          /* keep in layout to avoid reflow */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0px;
+
+    max-height: 0;          /* hide */
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
   #c_list.active {
-  display: flex;
-  flex-wrap: nowrap ;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px;
-}
+    max-height: 1000px;     /* arbitrary large value */
+    opacity: 1;
+    margin-top:30px;
+  }
 
 .hamburger {
   display: block;
@@ -1017,12 +1062,15 @@ background-color: #ccc;
   padding: 0.5rem 1rem;
   margin-top: 16px;
 }
+.row_2{
+  flex-direction: column-reverse;
+}
 /* sidebar  css*/
 .clm_2_1, .clm_2_2, .clm_2, .clm_1{
   flex: 100%;
 }
 .clm_1 img{
-  
+  width: 100%;
 float:none;
  margin: auto;
 }
@@ -1045,6 +1093,16 @@ float:none;
 @media (max-width: 767px) {
   .logo_aria{
     justify-content: center;
+    margin: auto 0px;
+  }
+  .title_logo>img{
+    height: 100px;
+  }
+  .ab-logo{
+    flex: 0.7;
+  }
+  .title_logo{
+    flex: 1.3;
   }
   .u-background {
     display: none;
@@ -1060,6 +1118,7 @@ float:none;
     flex: 100% ;
   }
   .clm_1 img{
+    width: 100%;
     float:none;
     margin: auto;
   }
@@ -1071,7 +1130,7 @@ float:none;
   .clm-L2,
   .clm-L3,
   .clm-L4 {
-    flex: 45%;
+    flex:100%;
   }
   /* row4*/
   .foot_r1{
@@ -1085,12 +1144,6 @@ float:none;
   .foot_r1{
     margin: 32px 10px 40px 10px;
     gap:30px;
-  }
-#B_Img {
-    padding: 15px;       /* less padding on small screens */
-    min-height:16rem;        /* smaller height for mobile */
-    background-position: center top; /* optional: focus on top of image */
-    height: auto; 
   }
   .potal_image a {
     flex: 0 0 calc(50% - 1rem); /* exactly 2 per row */
@@ -1110,16 +1163,22 @@ float:none;
 
 /* sidebar  css*/
 #c_list {
-  display: none;
-}
+    display: flex;          /* keep in layout to avoid reflow */
+    flex-direction: column;
+    gap: 10px;
+    margin-top:0px;
+
+    max-height: 0;          /* hide */
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
   #c_list.active {
-  display: flex;
-  flex-wrap: nowrap ;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px;
-  
-}
+    max-height: 1000px;     /* arbitrary large value */
+    opacity: 1;
+    margin-top:30px;
+  }
 .hamburger {
   display: block;
   background-color: #9b2b04;
@@ -1130,8 +1189,13 @@ float:none;
   padding: 0.5rem 1rem;
   margin-top: 16px;
 }
-
-
+.audio-cul-1 img{
+  max-width: 100%;  
+  height: 200px;
+}
+.row_2{
+  flex-direction: column-reverse;
+}
 /* sidebar  css*/
 .my-button2{
   flex-direction: row;
@@ -1141,15 +1205,10 @@ float:none;
   padding: 10px 20px;
   background-position: top ;
   background-size: cover;
-  
-}
-.line-break{
-  display: none;
 }
 .htdbsa{
   flex-direction: column;
   margin-top: 0px;
-
 }
 }
 /* Mobile version started */
@@ -1188,6 +1247,8 @@ div#mobileMenu>a{
 .menu-open .menu-toggle {
   display: none;
 }
+.menu-toggle,.close-toggle {
+  color: #ffffff;}
 .menu-open .close-toggle {
   display: inline-block;
 }
@@ -1383,6 +1444,68 @@ nav[aria-label="breadcrumb"] {
   font-size: 14px;
   margin: 1rem 0;
 } 
+
+.H-audio {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 800px;
+      width: 100%;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .audio-column, .image-column {
+      flex: 1 1 300px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .audio-column {
+      border-right: 1px solid #eee;
+    }
+
+    .audio-column button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+
+    .play-btn {
+      background-color: #28a745;
+    }
+
+    .stop-btn {
+      background-color: #dc3545;
+    }
+
+    .audio-column button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-column img {
+      max-width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    @media(max-width: 600px){
+      
+    }
+
+
+
 
 
 
