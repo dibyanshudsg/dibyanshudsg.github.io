@@ -1376,18 +1376,21 @@ div#mobileMenu>a{
   border-radius: 8px;
 }
 
-.exceptional-content ul{
+.exceptional-content ul,
+.exceptional-content ol{
   list-style: none; /* Remove default bullets */
   padding-left:1rem ;  
 }
-.exceptional-content ul li{
+.exceptional-content ul li,
+.exceptional-content ol li{
   position: relative;
   position: relative;
   padding-left: 30px; /* space for dice icon */
   direction: ltr; /* base direction */
   unicode-bidi: isolate; /* isolate item content */
 }
-.exceptional-content ul li::before {
+.exceptional-content ul li::before,
+.exceptional-content ol li::before {
   content: '●'; /* custom bullet (can change per item) */
   position: absolute;
   left: 0;
@@ -1498,10 +1501,6 @@ nav[aria-label="breadcrumb"] {
       max-width: 100%;
       border-radius: 10px;
       object-fit: cover;
-    }
-
-    @media(max-width: 600px){
-      
     }
 
 

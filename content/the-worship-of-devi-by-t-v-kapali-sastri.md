@@ -1,7 +1,7 @@
 +++
 date = '2025-10-01T21:12:09+05:30'
 draft = false
-title = 'The Worship of Devi by T v Kapali Sastri'
+title = 'The Worship of Devi by T V Kapali Sastri'
 customSidebar = "sidebar.html"
 showSpecialContent = true
 mainclass = "exceptional-content"
@@ -105,4 +105,5 @@ The “opening is full of the supreme meaning of the great Devi symbol, its clos
 
 1. The worshipper of Shakti. She is the great Goddess, the Mother of all creation, of all the gods and their worlds, who creates, preserves and dissolves, who constitutes and directs all the activities of the Universe. She veils Her own truth-the Absolute Truth beyond—from the vision of Her creatures, gods as well as men, and also by Her own Grace unveils Herself, Her transcendental Truth to their vision and experience for the final beautitude, for crossing the Ignorance, for their liberated and illumined life or for their absorption in Her own Blissful and Absolute Being.
 2. Repetition of a mantra in an inaudible voice. the Mantras of the famous Vedic Hymn, the Devi Sukta of the Rig Veda—-devi-sūktam param japan. At the close of the three years, Chandika, the Goddess who is the upholder of the World, Jagaddhatri, appeared before them, expressed Her pleasure to grant them their desired ends. By the boon he got, the king regained his lost kingdom and in the next birth, he became the Sävarņi Manu with his unfailing regime throughout the cycle of time named after him, Savarni Manvāntara.
+
 3. From a hymn in the Tantras?ra (translated by Arthur Avalon). to the Devi in the language of the Tantra:
