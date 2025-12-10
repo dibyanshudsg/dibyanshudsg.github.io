@@ -78,3 +78,59 @@ document.addEventListener("contextmenu", (e) => e.preventDefault());
 // Disable copy & cut
 document.addEventListener("copy", (e) => e.preventDefault());
 document.addEventListener("cut", (e) => e.preventDefault());
+
+// audio
+(function (player) {
+  const audio = player.querySelector(".audio");
+  const playBtn = player.querySelector(".play-btn");
+  const prevBtn = player.querySelector(".prev");
+  const nextBtn = player.querySelector(".next");
+  const likeBtn = player.querySelector(".like");
+  const volume = player.querySelector(".volume");
+  const progress = player.querySelector(".progress");
+  const bar = player.querySelector(".bar");
+  const thumb = player.querySelector(".thumb");
+  const currentEl = player.querySelector(".current");
+  const totalEl = player.querySelector(".total");
+
+  function sec(n) {
+    if (!isFinite(n)) return "0:00";
+    const m = Math.floor(n / 60);
+    const s = ("0" + Math.floor(n % 60)).slice(-2);
+    return m + ":" + s;
+  }
+
+  audio.volume = volume.value;
+
+  audio.onloadedmetadata = () => (totalEl.textContent = sec(audio.duration));
+
+  playBtn.onclick = () => (audio.paused ? audio.play() : audio.pause());
+  audio.onplay = () => (playBtn.textContent = "⏸");
+  audio.onpause = () => (playBtn.textContent = "▶");
+
+  audio.ontimeupdate = () => {
+    const pct = (audio.currentTime / audio.duration) * 100;
+    bar.style.width = pct + "%";
+    thumb.style.left = pct + "%";
+    currentEl.textContent = sec(audio.currentTime);
+  };
+
+  progress.onclick = (e) => {
+    const x = e.offsetX;
+    const pct = x / progress.offsetWidth;
+    audio.currentTime = pct * audio.duration;
+  };
+
+  volume.oninput = () => (audio.volume = volume.value);
+
+  likeBtn.onclick = () => {
+    likeBtn.textContent = likeBtn.textContent === "♡" ? "♥" : "♡";
+    likeBtn.style.color =
+      likeBtn.textContent === "♥" ? "#ffffffff" : "#ffffffff";
+  };
+
+  prevBtn.onclick = () =>
+    (audio.currentTime = Math.max(0, audio.currentTime - 10));
+  nextBtn.onclick = () =>
+    (audio.currentTime = Math.min(audio.duration, audio.currentTime + 10));
+})(document.querySelector("#spotify-player"));

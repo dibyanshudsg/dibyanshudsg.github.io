@@ -1210,6 +1210,18 @@ float:none;
   flex-direction: column;
   margin-top: 0px;
 }
+.spotify-player {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .left, .center, .right {
+    width: 100%;
+    justify-content: center;
+  }
+  .controls { justify-content: center; }
+  .progress-wrap { justify-content: center; }
+  .volume { width: 80%; max-width: 200px; }
 }
 /* Mobile version started */
 /* Mobile version nav bar started */
@@ -1503,6 +1515,48 @@ nav[aria-label="breadcrumb"] {
       object-fit: cover;
     }
 
+/*spotify-player  */
+
+    .spotify-player {
+  max-width: 760px;
+  margin: 20px auto;
+  background:  #9B2B04;
+  color: #fff;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.6);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto;
+}
+.left { display:flex; gap:12px; align-items:center; min-width:220px; }
+.cover { width:72px; height:72px; border-radius:8px; object-fit:cover; box-shadow:0 4px 12px rgba(0,0,0,.6); }
+.meta .title { font-weight:700; font-size:14px; }
+.meta .artist { font-size:12px; color:#b3b3b3; margin-top:4px; }
+.center { flex:1; display:flex; flex-direction:column; gap:10px; }
+.controls { display:flex; justify-content:center; gap:14px; }
+.ctrl { background:transparent; border:none; color:#fff; cursor:pointer; }
+.ctrl.play { background: #9B2B04;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%; 
+    box-shadow: 0 8px 24px rgba(0,0,0,.6);
+  }
+  button.like{
+    background-color:transparent;
+    width: 20px;
+
+  }
+.progress-wrap { display:flex; gap:12px; align-items:center; }
+.progress { flex:1; height:8px; background:rgba(255,255,255,.08); border-radius:999px; position:relative; cursor:pointer; }
+.bar { background:linear-gradient(90deg,#ffffff,#ffffff); height:100%; width:0%; border-radius:999px; position:absolute; }
+.thumb { width:12px; height:12px; background:#fff; border-radius:50%; position:absolute; top:50%; transform:translate(-50%,-50%); display:none; }
+.progress:hover .thumb { display:block; }
+.right { display:flex; align-items:center; gap:10px; }
+.volume { width:110px; accent-color:#fff; }
 
 
 
